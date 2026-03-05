@@ -1,0 +1,84 @@
+{{ $user := .Get "user" }}
+{{ $limit := .Get "limit" | default "10" }}
+{{ $sort := .Get "sort" | default "year_desc" }}
+
+<div
+  class="scholar-feed"
+  data-user="{{ $user }}"
+  data-limit="{{ $limit }}"
+  data-sort="{{ $sort }}"
+>
+  <p>Loading publications…</p>
+</div>
+
+<script>
+(function() {
+
+  function renderFeed(container, data) {
+
+    const limit = parseInt(container.dataset.limit || "10");
+    const sort = container.dataset.sort || "year_desc";
+
+    let pubs = data.publications || [];
+
+    if (sort === "cites_desc") {
+      pubs = pubs.sort((a,b) => (b.cited_by||0) - (a.cited_by||0));
+    } else {
+      pubs = pubs.sort((a,b) => (b.year||0) - (a.year||0));
+    }
+
+    pubs = pubs.slice(0, limit);
+
+    let html = `
+      <div class="scholar-header">
+        <strong>${data.name || "Publications"}</strong>
+        ${data.profile_url ? `<a href="${data.profile_url}" target="_blank" rel="noopener">Google Scholar</a>` : ""}
+      </div>
+      <ol class="scholar-list">
+    `;
+
+    pubs.forEach(p => {
+
+      html += `
+        <li>
+          <div class="scholar-title">
+            ${p.url
+              ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>`
+              : p.title
+            }
+            ${p.year ? `(${p.year})` : ""}
+          </div>
+
+          <div class="scholar-meta">
+            ${p.authors ? `<div>${p.authors}</div>` : ""}
+            ${p.venue ? `<div>${p.venue}</div>` : ""}
+            <div class="scholar-links">
+              ${p.cited_by ? `Cited by ${p.cited_by}` : ""}
+              ${p.scholar_url ? `<a href="${p.scholar_url}" target="_blank">Scholar</a>` : ""}
+            </div>
+          </div>
+        </li>
+      `;
+    });
+
+    html += "</ol>";
+
+    container.innerHTML = html;
+  }
+
+  document.querySelectorAll(".scholar-feed").forEach(container => {
+
+    const user = container.dataset.user;
+
+    fetch(`static/scholar/${user}.json`)
+      .then(r => r.json())
+      .then(data => renderFeed(container, data))
+      .catch(err => {
+        container.innerHTML = "<p>Unable to load publications.</p>";
+        console.error("Scholar feed error:", err);
+      });
+
+  });
+
+})();
+</script>
