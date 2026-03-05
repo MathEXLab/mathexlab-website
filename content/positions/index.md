@@ -6,4 +6,3 @@ menu:
   main:
     weight: 1
 ---
-# Positions

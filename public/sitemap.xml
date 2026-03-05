@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
   </url><url>
+    <loc>http://localhost:1313/research-highlights/</loc>
+  </url><url>
     <loc>http://localhost:1313/seminars/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
