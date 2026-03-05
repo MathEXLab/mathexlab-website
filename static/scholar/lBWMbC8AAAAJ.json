@@ -1,0 +1,66 @@
+{
+  "name": "Chenyu Dong",
+  "profile_url": "https://scholar.google.com/citations?user=lBWMbC8AAAAJ&hl=en",
+  "updated": "2026-03-05",
+  "publications": [
+    {
+      "title": "Indo-Pacific regional extremes aggravated by changes in tropical weather patterns",
+      "authors": "Chenyu Dong and Robin Noyelle and Gabriele Messori and Adriano Gualandi and Lucas Fery and Pascal Yiou and Mathieu Vrac and Fabio D’andrea and Suzana J Camargo and Erika Coppola and Gianpaolo Balsamo and Chen Chen and Davide Faranda and Gianmarco Mengaldo",
+      "venue": "Nature Geoscience",
+      "year": 2024,
+      "cited_by": 27,
+      "url": "https://www.nature.com/articles/s41561-024-01537-8"
+    },
+    {
+      "title": "Time-lagged recurrence: A data-driven method to estimate the predictability of dynamical systems",
+      "authors": "Chenyu Dong and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2025,
+      "cited_by": 10,
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2420252122"
+    },
+    {
+      "title": "Hap-pulse: A wearable vibrotactile glove for medical pulse wave rendering",
+      "authors": "Hu Luo and Yuxiang Fu and Ning Ding and Chenyu Dong and Yuru Zhang and Dangxiao Wang",
+      "venue": "IEEE Transactions on Haptics",
+      "year": 2022,
+      "cited_by": 10,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9730000/"
+    },
+    {
+      "title": "Spatio-temporal dynamical indices for complex systems",
+      "authors": "Chenyu Dong and Gabriele Messori and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "Chaos, Solitons & Fractals",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960077925012615"
+    },
+    {
+      "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2503.08163",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://arxiv.org/abs/2503.08163"
+    },
+    {
+      "title": "El Niño and droughts in Southeast Asia: A stochastic-chaotic modeling approach",
+      "year": "2025",
+      "cited_by": 0
+    },
+    {
+      "title": "Advancing the understanding of extreme events through the lens of dynamical system theory",
+      "authors": "Chenyu Dong and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "EGU General Assembly Conference Abstracts",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://ui.adsabs.harvard.edu/abs/2025EGUGA..27.7645D/abstract"
+    },
+    {
+      "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
+      "cited_by": 0,
+      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
+    }
+  ]
+}

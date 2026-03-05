@@ -70,7 +70,11 @@
 
     const user = container.dataset.user;
 
-    fetch(`static/scholar/${user}.json`)
+    // the JSON file is placed under the generated `scholar/` directory, not `static/`
+    // use a Hugo URL helper so it works with baseURL/relative paths
+    const feedUrl = `{{ "scholar/" | relURL }}${user}.json`;
+
+    fetch(feedUrl)
       .then(r => r.json())
       .then(data => renderFeed(container, data))
       .catch(err => {

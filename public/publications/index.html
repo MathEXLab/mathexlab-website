@@ -221,7 +221,11 @@
 
     const user = container.dataset.user;
 
-    fetch(`static/scholar/${user}.json`)
+    
+    
+    const feedUrl = `\/scholar\/${user}.json`;
+
+    fetch(feedUrl)
       .then(r => r.json())
       .then(data => renderFeed(container, data))
       .catch(err => {
