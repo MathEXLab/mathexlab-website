@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<main class="mw9 center ph3 ph5-l pv4">
+
+  <header class="mb4 tl">
+    <h1 class="f2 mb2">{{ .Title }}</h1>
+
+    {{ with .Params.description }}
+      <p class="lh-copy measure-wide">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{ partial "mini-highlights.html" . }}
+
+  {{ range .Params.sections }}
+    <section id="{{ .id }}" class="mb5">
+
+      <h2 class="f3 mb3 tl">{{ .title }}</h2>
+
+      <div class="publication-list">
+        {{ range .projects }}
+          <article id="{{ .id }}" class="publication-card">
+
+            <h3 class="f4 mb2">{{ .title }}</h3>
+
+            {{ with .summary }}
+              <p>{{ . }}</p>
+            {{ end }}
+
+            {{ with .link }}
+              <p>
+                <a href="{{ . }}" target="_blank" rel="noopener" class="link dim">
+                  View publication →
+                </a>
+              </p>
+            {{ end }}
+
+          </article>
+        {{ end }}
+      </div>
+
+    </section>
+  {{ end }}
+
+  <section class="mt5">
+    {{ .Content }}
+  </section>
+
+</main>
+
+{{ end }}

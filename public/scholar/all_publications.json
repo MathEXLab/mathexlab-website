@@ -1,0 +1,314 @@
+{
+  "name": "MathExLab",
+  "profile_url": "",
+  "updated": "2026-03-06",
+  "publications": [
+    {
+      "title": "Explainable Natural Language Processing for Corporate Sustainability Analysis",
+      "authors": "Keane Ong and Rui Mao and Ranjan Satapathy and Erik Cambria and Johan Sulaeman and Gianmarco Mengaldo",
+      "venue": "Information Fusion",
+      "year": 2025,
+      "cited_by": 35,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1566253524005049"
+    },
+    {
+      "title": "FinXABSA: Explainable Finance through Aspect-Based Sentiment Analysis",
+      "authors": "Keane Ong and Wihan van der Heever and Ranjan Satapathy and Gianmarco Mengaldo and Erik Cambria",
+      "year": 2023,
+      "cited_by": 23,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10411537/"
+    },
+    {
+      "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Erik Cambria and Gianmarco Mengaldo",
+      "year": 2025,
+      "cited_by": 17,
+      "url": "https://aclanthology.org/2025.acl-long.723/"
+    },
+    {
+      "title": "ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis",
+      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Frank Xing and Ranjan Satapathy and Johan Sulaeman and Erik Cambria and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2501.15720",
+      "year": 2025,
+      "cited_by": 8,
+      "url": "https://arxiv.org/abs/2501.15720"
+    },
+    {
+      "title": "Sentiment Analysis on Climate Change for Sustainable Investment",
+      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Ranjan Satapathy and Erik Cambria and Gianmarco Mengaldo",
+      "year": 2024,
+      "cited_by": 4,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10917790/"
+    },
+    {
+      "title": "Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation",
+      "year": "2025",
+      "cited_by": 3
+    },
+    {
+      "title": "ClimaEmpact: domain-aligned small language models and datasets for extreme weather analytics",
+      "authors": "Deeksha Varshney and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2504.19066",
+      "year": 2025,
+      "cited_by": 3,
+      "url": "https://arxiv.org/abs/2504.19066"
+    },
+    {
+      "title": "Human Behavior Atlas: Benchmarking Unified Psychological and Social Behavior Understanding",
+      "authors": "Keane Ong and Wei Dai and Carol Li and Dewei Feng and Hengzhi Li and Jingyao Wu and Jiaee Cheong and Rui Mao and Gianmarco Mengaldo and Erik Cambria and Paul Pu Liang",
+      "year": 2026,
+      "cited_by": 2,
+      "url": "https://arxiv.org/abs/2510.04899"
+    },
+    {
+      "title": "Leveraging LLMs for Top-Down Sector Allocation In Automated Trading",
+      "authors": "Ryan Quek Wei Heng and Edoardo Vittori and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "venue": "Proceedings of ICLR Workshops",
+      "year": 2025,
+      "cited_by": 1,
+      "url": "https://arxiv.org/abs/2503.09647"
+    },
+    {
+      "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
+      "authors": "Keane Ong and Sabri Boughorbel and Luwei Xiao and Chanakya Ekbote and Wei Dai and Ao Qu and Jingyao Wu and Rui Mao and Ehsan Hoque and Erik Cambria and Gianmarco Mengaldo and Paul Pu Liang",
+      "venue": "arXiv preprint arXiv:2602.10635",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2602.10635"
+    },
+    {
+      "title": "Enhancing Language Models for Robust Greenwashing Detection",
+      "authors": "Neil Heinrich Braun and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2601.21722",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2601.21722"
+    },
+    {
+      "title": "Indo-Pacific regional extremes aggravated by changes in tropical weather patterns",
+      "authors": "Chenyu Dong and Robin Noyelle and Gabriele Messori and Adriano Gualandi and Lucas Fery and Pascal Yiou and Mathieu Vrac and Fabio D\u2019andrea and Suzana J Camargo and Erika Coppola and Gianpaolo Balsamo and Chen Chen and Davide Faranda and Gianmarco Mengaldo",
+      "venue": "Nature Geoscience",
+      "year": 2024,
+      "cited_by": 27,
+      "url": "https://www.nature.com/articles/s41561-024-01537-8"
+    },
+    {
+      "title": "Time-lagged recurrence: A data-driven method to estimate the predictability of dynamical systems",
+      "authors": "Chenyu Dong and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2025,
+      "cited_by": 10,
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2420252122"
+    },
+    {
+      "title": "Hap-pulse: A wearable vibrotactile glove for medical pulse wave rendering",
+      "authors": "Hu Luo and Yuxiang Fu and Ning Ding and Chenyu Dong and Yuru Zhang and Dangxiao Wang",
+      "venue": "IEEE Transactions on Haptics",
+      "year": 2022,
+      "cited_by": 10,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9730000/"
+    },
+    {
+      "title": "Spatio-temporal dynamical indices for complex systems",
+      "authors": "Chenyu Dong and Gabriele Messori and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "Chaos, Solitons & Fractals",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960077925012615"
+    },
+    {
+      "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2503.08163",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://arxiv.org/abs/2503.08163"
+    },
+    {
+      "title": "El Ni\u00f1o and droughts in Southeast Asia: A stochastic-chaotic modeling approach",
+      "year": "2025",
+      "cited_by": 0
+    },
+    {
+      "title": "Advancing the understanding of extreme events through the lens of dynamical system theory",
+      "authors": "Chenyu Dong and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "venue": "EGU General Assembly Conference Abstracts",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://ui.adsabs.harvard.edu/abs/2025EGUGA..27.7645D/abstract"
+    },
+    {
+      "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
+      "cited_by": 0,
+      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
+    },
+    {
+      "title": "Towards Affective Evaluation of STEM Education: Leveraging MLLMs in Project-Based Learning",
+      "authors": "Xinyi Wu and Yanhao Jia and Qinglin Zhang and Yiran Qin and Luwei Xiao and Shuai Zhao",
+      "venue": "IEEE Transactions on Affective Computing",
+      "year": 2026,
+      "cited_by": 13,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11361133/"
+    },
+    {
+      "title": "SenticNet 9: Generative commonsense for emotion AI via conceptual primitive discovery and time shift mechanism",
+      "authors": "Erik Cambria and Rui Mao and Xulang Zhang and Luwei Xiao and Tiesunlong Shen and Avinash Anand",
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "year": 2026,
+      "cited_by": 4,
+      "url": "https://scholar.google.com/scholar?cluster=1860075172549483657&hl=en&oi=scholarr"
+    },
+    {
+      "title": "Backdoor Defense for Large Language Models with Weak-to-Strong Knowledge Distillation",
+      "authors": "Yuwen Li and Xinyi Wu and Zhongliang Guo and Luwei Xiao and Yanhao Jia and Shuai Zhao",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "cited_by": 1,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320325016930"
+    },
+    {
+      "title": "Human-Centered Pathways to Trustworthy AI in Healthcare: A Comparative Analysis of Explainable AI, Human-in-the-Loop, Hybrid AI, and Uncertainty Quantification Techniques",
+      "authors": "Ali Kohan and Junjie Xu and Luwei Xiao and Xingjiao Wu and Ashima Kukkar and Sadiq Hussain and Mohamad Roshanzamir and Roohallah Alizadehsani and U Rajendra Acharya",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://www.researchsquare.com/article/rs-8976235/latest"
+    },
+    {
+      "title": "AOSNet-Sec: Aperture\u2013Orientation\u2013Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution",
+      "authors": "Zhengnan Yin and Luwei Xiao and Xuan Feng and Yiwei Chen and Xianxun Zhu and Cai Luo and Faten S Alamri and Rui Mao and Erik Cambria",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326003110"
+    },
+    {
+      "title": "A Survey of LLM Reasoning in Healthcare and Medicine: from Individual Modeling to Collaborative Agents",
+      "authors": "Qika Lin and Luwei Xiao and Bin Pu and Kaize Shi and Yanrui Du and Jiaxing Xu and Kai He and Shuai Zhao and Erik Cambria and Swapnil Mishra and Mengling Feng",
+      "venue": "Authorea Preprints",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.177127364.46765828"
+    },
+    {
+      "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
+      "authors": "Keane Ong and Sabri Boughorbel and Luwei Xiao and Chanakya Ekbote and Wei Dai and Ao Qu and Jingyao Wu and Rui Mao and Ehsan Hoque and Erik Cambria and Gianmarco Mengaldo and Paul Pu Liang",
+      "venue": "arXiv preprint arXiv:2602.10635",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2602.10635"
+    },
+    {
+      "title": "Affective Flow Language Model for Emotional Support Conversation",
+      "authors": "Chenghui Zou and Ning Wang and Tiesunlong Shen and Luwei Xiao and Chuan Ma and Xiangpeng Li and Rui Mao and Erik Cambria",
+      "venue": "arXiv preprint arXiv:2602.08826",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2602.08826"
+    },
+    {
+      "title": "Dynamical errors in machine learning forecasts",
+      "authors": "Zhou Fang and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2504.11074",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://www.sciencedirect.com/science/article/pii/S096007792501389X"
+    },
+    {
+      "title": "Revisiting the robustness of post-hoc interpretability methods",
+      "authors": "Jiawen Wei and Hugues Turb\u00e9 and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2407.19683",
+      "year": 2024,
+      "cited_by": 19,
+      "url": "https://arxiv.org/abs/2407.19683"
+    },
+    {
+      "title": "Understanding via exploration: Discovery of interpretable features with deep reinforcement learning",
+      "authors": "Jiawen Wei and Zhifeng Qiu and Fangyuan Wang and Wenwei Lin and Ning Gui and Weihua Gui",
+      "venue": "IEEE transactions on neural networks and learning systems",
+      "year": 2022,
+      "cited_by": 13,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9810174/"
+    },
+    {
+      "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2503.08163",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://arxiv.org/abs/2503.08163"
+    },
+    {
+      "title": "An embedded feature selection framework for control",
+      "authors": "Jiawen Wei and Fangyuan Wang and Wanxin Zeng and Wenwei Lin and Ning Gui",
+      "year": 2022,
+      "cited_by": 5,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3539290"
+    },
+    {
+      "title": "Explainability matters: The effect of liability rules on the healthcare sector",
+      "authors": "Jiawen Wei and Elena Verona and Andrea Bertolini and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2509.17334",
+      "year": 2025,
+      "cited_by": 1,
+      "url": "https://arxiv.org/abs/2509.17334"
+    },
+    {
+      "title": "eXIAA: eXplainable Injections for Adversarial Attack",
+      "authors": "Leonardo Pesce and Jiawen Wei and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2511.10088",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2511.10088"
+    },
+    {
+      "title": "Data-driven classification of structural nonlinearities using interpretable deep learning on time series",
+      "authors": "Bayan Abusalameh and Gianmarco Mengaldo and Jiawen Wei",
+      "venue": "Available at SSRN 5717653",
+      "cited_by": 0,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
+    },
+    {
+      "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
+      "cited_by": 0,
+      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
+    },
+    {
+      "title": "XAI4Science: From Understanding Model Behavior to Discovering New Scientific Knowledge",
+      "authors": "Gianmarco Mengaldo and Jiawen Wei and Christopher J Anders and Mohammad Emtiyaz Khan and Abeba Birhane and Sara Hooker",
+      "cited_by": 0,
+      "url": "https://openreview.net/forum?id=PwoXoEM6e3"
+    },
+    {
+      "title": "CondensNet: enabling stable long-term climate simulations via hybrid deep learning models with adaptive physical constraints",
+      "authors": "Xin Wang and Jianda Chen and Juntao Yang and Jeff Adie and Simon See and Kalli Furtado and Chen Chen and Troy Arcomano and Romit Maulik and Wei Xue and Gianmarco Mengaldo",
+      "venue": "npj Climate and Atmospheric Science",
+      "year": 2026,
+      "cited_by": 4,
+      "url": "https://www.nature.com/articles/s41612-025-01269-5"
+    },
+    {
+      "title": "Data-driven classification of structural nonlinearities using interpretable deep learning on time series",
+      "authors": "Bayan Abusalameh and Gianmarco Mengaldo and Jiawen Wei",
+      "venue": "Available at SSRN 5717653",
+      "cited_by": 0,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
+    },
+    {
+      "title": "Feature Engineering Approach to Building Load Prediction: A Case Study for Commercial Building Chiller Plant Optimization in Tropical Weather",
+      "authors": "Zhan Wang and Chen Weidong and Huang Zhifeng and Md Raisul Islam and Chua Kian Jon",
+      "venue": "arXiv preprint arXiv:2502.15780",
+      "year": 2025,
+      "cited_by": 2,
+      "url": "https://arxiv.org/abs/2502.15780"
+    },
+    {
+      "title": "Cluster-Based Reduced-Order Modelling and Control for Chaotic Systems with Extreme Events",
+      "authors": "Yuxuan Yang and Nguyen Anh Khoa Doan",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-97567-7_1"
+    }
+  ]
+}

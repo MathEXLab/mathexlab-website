@@ -1,0 +1,61 @@
+<article id="{{ .id }}" class="project-card">
+
+  <div class="project-card-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="project-main">
+
+      <h3 class="project-title">{{ .title }}</h3>
+
+      {{ with .status }}
+      <span class="project-status">{{ . }}</span>
+      {{ end }}
+
+      <div class="project-media">
+        {{ if .video }}
+        <video autoplay muted loop playsinline poster="{{ .poster }}">
+          <source src="{{ .video }}" type="video/mp4">
+        </video>
+        {{ else if .poster }}
+        <img src="{{ .poster }}" alt="{{ .title }}">
+        {{ end }}
+      </div>
+
+      {{ with .summary }}
+      <p class="project-summary">
+        {{ . }}
+      </p>
+      {{ end }}
+
+    </div>
+
+
+    <!-- RIGHT COLUMN -->
+    <div class="project-meta">
+
+      {{ with .sponsors }}
+      <div class="project-section">
+        <h4>Sponsors</h4>
+        {{ partial "logo-grid.html" . }}
+      </div>
+      {{ end }}
+
+      {{ with .collaborators }}
+      <div class="project-section">
+        <h4>Collaborators</h4>
+        {{ partial "logo-grid.html" . }}
+      </div>
+      {{ end }}
+
+      {{ with .people }}
+      <div class="project-section">
+        <h4>People</h4>
+        {{ partial "people-grid.html" . }}
+      </div>
+      {{ end }}
+
+    </div>
+
+  </div>
+
+</article>

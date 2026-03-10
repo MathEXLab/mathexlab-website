@@ -26,7 +26,7 @@ def pub_to_record(pub):
         "url": pub.get("pub_url"),
     }
 
-def scrape(user_id, limit=50, delay=2.0, jitter=1.5):
+def scrape(user_id, start_year = None,limit=50, delay=2.0, jitter=1.5):
     enable_proxies()
 
     author = scholarly.search_author_id(user_id)
@@ -41,6 +41,8 @@ def scrape(user_id, limit=50, delay=2.0, jitter=1.5):
 
         # start with what we already have (works even if fill fails)
         record = pub_to_record(pub)
+        if start_year and int(record.get("year")) < int(start_year):
+            continue
 
         try:
             filled = scholarly.fill(pub)
@@ -61,21 +63,39 @@ def scrape(user_id, limit=50, delay=2.0, jitter=1.5):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python scrape_google_scholar.py USER_ID [LIMIT]")
+        print("Usage: python scrape_google_scholar.py USER_ID [start_year]")
         sys.exit(1)
 
     user_id = sys.argv[1]
-    limit = int(sys.argv[2]) if len(sys.argv) >= 3 else 50
 
-    data = scrape(user_id, limit=limit)
+    start_year = int(sys.argv[2]) if len(sys.argv) >= 3 else None
 
-    os.makedirs("static/scholar", exist_ok=True)
-    out_path = f"static/scholar/{user_id}.json"
+    data = scrape(user_id, start_year)
+
+    out_path = "static/scholar/all_publications.json"
+    
+    with open(out_path, "r", encoding="utf-8") as f:
+        existing_data = json.load(f)
+    
+    existing_titles = {p.get("title") for p in existing_data.get("publications", [])}
+
+    count = 0
+    for pub in data["publications"]:
+        if pub.get("title") not in existing_titles:
+            existing_data["publications"].append(pub)
+            count += 1
+
 
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(existing_data, f, indent=2)
 
-    print(f"Saved {len(data['publications'])} publications → {out_path}")
+    # os.makedirs("static/scholar", exist_ok=True)
+    # out_path = f"static/scholar/{user_id}.json"
+
+    # with open(out_path, "w", encoding="utf-8") as f:
+    #     json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved {count} new publications → {out_path}")
 
 if __name__ == "__main__":
     main()

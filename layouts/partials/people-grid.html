@@ -1,0 +1,8 @@
+<div class="people-grid">
+  {{ range . }}
+    <div class="person-item">
+      <img src="{{ .image }}" alt="{{ .name }}">
+      <div class="person-label">{{ .name }}</div>
+    </div>
+  {{ end }}
+</div>

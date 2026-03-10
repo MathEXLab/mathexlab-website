@@ -1,0 +1,128 @@
+{{ $user := .Get "user" }}
+{{ $limit := .Get "limit" | default "10" }}
+{{ $sort := .Get "sort" | default "year_desc" }}
+{{ $title := .Get "title" | default "All Publications" }}
+
+<div
+  class="scholar-feed"
+  data-user="{{ $user }}"
+  data-limit="{{ $limit }}"
+  data-sort="{{ $sort }}"
+  data-title="{{ $title }}"
+>
+  <div class="scholar-feed__state scholar-feed__state--loading">
+    Loading publications…
+  </div>
+</div>
+
+<script>
+(function () {
+  function escapeHtml(str) {
+    return String(str ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function asNumber(value, fallback = 0) {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : fallback;
+  }
+
+  function sortPublications(pubs, sort) {
+    const items = [...pubs];
+    if (sort === "cites_desc") {
+      items.sort((a, b) => asNumber(b.cited_by) - asNumber(a.cited_by));
+    } else if (sort === "year_asc") {
+      items.sort((a, b) => asNumber(a.year) - asNumber(b.year));
+    } else {
+      items.sort((a, b) => asNumber(b.year) - asNumber(a.year));
+    }
+    return items;
+  }
+
+  function buildPublicationItem(p) {
+    const title = escapeHtml(p.title || "Untitled");
+    const authors = escapeHtml(p.authors || "");
+    const venue = escapeHtml(p.venue || "");
+    const year = asNumber(p.year, 0);
+    const citedBy = asNumber(p.cited_by, 0);
+
+    const titleHtml = p.url
+      ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${title}</a>`
+      : title;
+
+    return `
+      <li class="scholar-feed__item">
+        <article class="scholar-feed__card">
+          <h3 class="scholar-feed__paper-title">
+            ${titleHtml}
+            ${year ? `<span class="scholar-feed__year">${year}</span>` : ""}
+          </h3>
+          <div class="scholar-feed__meta">
+            ${authors ? `<div class="scholar-feed__authors">${authors}</div>` : ""}
+            ${venue ? `<div class="scholar-feed__venue">${venue}</div>` : ""}
+          </div>
+          <div class="scholar-feed__links">
+            ${citedBy ? `<span class="scholar-feed__badge">Cited by ${citedBy}</span>` : ""}
+          </div>
+        </article>
+      </li>
+    `;
+  }
+
+  function renderFeed(container, data) {
+    const limit = asNumber(container.dataset.limit, 10);
+    const sort = container.dataset.sort || "year_desc";
+    const blockTitle = container.dataset.title || "All Publications";
+
+    let pubs = Array.isArray(data) ? data : (data.publications || []);
+    pubs = sortPublications(pubs, sort).slice(0, limit);
+
+    const scholarProfile = data.profile_url
+      ? `<a class="scholar-feed__profile-link" href="${data.profile_url}" target="_blank" rel="noopener noreferrer">Google Scholar</a>`
+      : "";
+
+    container.innerHTML = `
+      <section class="scholar-feed__wrapper">
+        <div class="scholar-feed__header">
+          <div>
+            <h2 class="scholar-feed__title">${escapeHtml(blockTitle)}</h2>
+            ${data.name ? `<div class="scholar-feed__subtitle">${escapeHtml(data.name)}</div>` : ""}
+          </div>
+          ${scholarProfile}
+        </div>
+        <ol class="scholar-feed__list">
+          ${pubs.map(buildPublicationItem).join("")}
+        </ol>
+      </section>
+    `;
+  }
+
+  function renderError(container, message) {
+    container.innerHTML = `<div class="scholar-feed__state scholar-feed__state--error">${message}</div>`;
+  }
+
+  document.querySelectorAll(".scholar-feed").forEach((container) => {
+    const user = container.dataset.user;
+    const feedUrl = `/scholar/${encodeURIComponent(user)}.json`;
+
+    console.log("Scholar feed URL:", feedUrl);
+
+    fetch(feedUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for ${feedUrl}`);
+        }
+        return response.json();
+      })
+      .then((data) => renderFeed(container, data))
+      .catch((err) => {
+        console.error("Scholar feed error:", err);
+        renderError(container, "Unable to load publications.");
+      });
+  });
+})();
+</script>

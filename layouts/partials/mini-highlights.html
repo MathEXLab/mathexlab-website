@@ -1,0 +1,32 @@
+<section class="research-mini-highlights">
+
+  <h2 class="f2 mb3 tl">Research Highlights</h2>
+
+  <div class="highlight-mini-grid">
+
+    {{ range .Params.sections }}
+      {{ range .projects }}
+        {{ if .featured }}
+
+        <a href="#{{ .id }}" class="highlight-mini-card">
+
+          {{ $project := . }}
+          {{ with $project.poster }}
+            <img src="{{ . }}" alt="{{ $project.title }}">
+          {{ end }}
+
+          <h3>{{ .title }}</h3>
+
+          {{ with .summary }}
+          <p>{{ . | truncate 120 }}</p>
+          {{ end }}
+
+        </a>
+
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+  </div>
+
+</section>

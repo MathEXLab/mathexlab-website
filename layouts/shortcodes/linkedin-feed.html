@@ -1,0 +1,74 @@
+{{ $limit := .Get "limit" | default "3" }}
+{{ $title := .Get "title" | default "Latest from LinkedIn" }}
+
+<div class="linkedin-feed" data-limit="{{ $limit }}" data-title="{{ $title }}">
+  <div class="linkedin-feed__state">Loading posts…</div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".linkedin-feed").forEach(function (container) {
+    const limit = parseInt(container.dataset.limit || "3", 10);
+    const title = container.dataset.title || "Latest from LinkedIn";
+
+    fetch("/linkedin/feed.json")
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        const posts = (data.posts || []).slice(0, limit);
+
+        if (!posts.length) {
+          container.innerHTML = '<div class="linkedin-feed__state">No posts found.</div>';
+          return;
+        }
+
+        let html = `
+          <section class="linkedin-feed__wrapper">
+            <div class="linkedin-feed__header">
+              <div>
+                <h2 class="linkedin-feed__title">${title}</h2>
+                ${data.profile_name ? `<div class="linkedin-feed__subtitle">${data.profile_name}</div>` : ""}
+              </div>
+              ${data.profile_url ? `<a class="linkedin-feed__profile-link" href="${data.profile_url}" target="_blank" rel="noopener noreferrer">View profile</a>` : ""}
+            </div>
+            <div class="highlight-mini-grid">
+        `;
+
+        posts.forEach(function (post) {
+          html += `
+            <article class="linkedin-card">
+              <div class="linkedin-card__top">
+                ${data.profile_image ? `<img class="linkedin-card__avatar" src="${data.profile_image}" alt="${data.profile_name || "LinkedIn profile"}">` : ""}
+                <div class="linkedin-card__identity">
+                  <div class="linkedin-card__name">${data.profile_name || "LinkedIn"}</div>
+                  ${post.date ? `<div class="linkedin-card__date">${post.date}</div>` : ""}
+                </div>
+              </div>
+
+              ${post.image ? `<img class="linkedin-card__image" src="${post.image}" alt="">` : ""}
+
+              ${post.text ? `<p class="linkedin-card__text">${post.text}</p>` : ""}
+
+              <div class="linkedin-card__actions">
+                ${post.url ? `<a class="linkedin-card__link" href="${post.url}" target="_blank" rel="noopener noreferrer">View on LinkedIn →</a>` : ""}
+              </div>
+            </article>
+          `;
+        });
+
+        html += `
+            </div>
+          </section>
+        `;
+
+        container.innerHTML = html;
+      })
+      .catch(function (err) {
+        console.error("LinkedIn feed error:", err);
+        container.innerHTML = '<div class="linkedin-feed__state linkedin-feed__state--error">Unable to load LinkedIn posts.</div>';
+      });
+  });
+});
+</script>

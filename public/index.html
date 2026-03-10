@@ -20,6 +20,10 @@
 
 
 
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
 
     
 
@@ -51,7 +55,7 @@
 
   <meta itemprop="name" content="Welcome to Mengaldo&#39;s MathEXLab">
   <meta itemprop="description" content="Mathematical and Computational Lab for Complex Systems">
-  <meta itemprop="wordCount" content="161">
+  <meta itemprop="wordCount" content="163">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Welcome to Mengaldo&#39;s MathEXLab">
   <meta name="twitter:description" content="Mathematical and Computational Lab for Complex Systems">
@@ -138,22 +142,87 @@
 
     <main class="pb7" role="main">
       
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l lh-copy mid-gray">
       <h1 id="what-we-do">What we do</h1>
 <p>We adopt an interdisciplinary approach for the analysis and forecast of complex systems. Understanding and modeling complex systems require integrating different disciplines with mathematics being the unifying language.</p>
 <p>We are also committed to reproducible, open-source and high-performance software as it is a cornerstone of modern science. All our codes related to scientific publications are freely available at github.com/MathEXLab.</p>
 <p>To cite Galileo Galilei , in Il Saggiatore (1623):
 &ldquo;Philosophy [i.e., natural philosophy or physics] is written in this grand book — I mean the universe — which stands continually open to our gaze, but it cannot be understood unless one first learns to comprehend the language and interpret the characters in which it is written. It is written in the language of mathematics, and its characters are triangles, circles, and other geometrical figures, without which it is humanly impossible to understand a single word of it; without these, one is wandering around in a dark labyrinth. &quot;</p>
 <h1 id="latest-news">Latest News</h1>
-<div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 0 4px; overflow: hidden; max-width: 504px; text-align: center;">
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7434806996769566720?collapsed=1"
-          height="600"
-          width="504"
-          frameborder="0"
-          allowfullscreen=""
-          title="LinkedIn Post"
-          style="display: block; margin: 0 auto;"></iframe>
+
+
+
+<div class="linkedin-feed" data-limit="3" data-title="Latest from LinkedIn">
+  <div class="linkedin-feed__state">Loading posts…</div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".linkedin-feed").forEach(function (container) {
+    const limit = parseInt(container.dataset.limit || "3", 10);
+    const title = container.dataset.title || "Latest from LinkedIn";
+
+    fetch("/linkedin/feed.json")
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        const posts = (data.posts || []).slice(0, limit);
+
+        if (!posts.length) {
+          container.innerHTML = '<div class="linkedin-feed__state">No posts found.</div>';
+          return;
+        }
+
+        let html = `
+          <section class="linkedin-feed__wrapper">
+            <div class="linkedin-feed__header">
+              <div>
+                <h2 class="linkedin-feed__title">${title}</h2>
+                ${data.profile_name ? `<div class="linkedin-feed__subtitle">${data.profile_name}</div>` : ""}
+              </div>
+              ${data.profile_url ? `<a class="linkedin-feed__profile-link" href="${data.profile_url}" target="_blank" rel="noopener noreferrer">View profile</a>` : ""}
+            </div>
+            <div class="highlight-mini-grid">
+        `;
+
+        posts.forEach(function (post) {
+          html += `
+            <article class="linkedin-card">
+              <div class="linkedin-card__top">
+                ${data.profile_image ? `<img class="linkedin-card__avatar" src="${data.profile_image}" alt="${data.profile_name || "LinkedIn profile"}">` : ""}
+                <div class="linkedin-card__identity">
+                  <div class="linkedin-card__name">${data.profile_name || "LinkedIn"}</div>
+                  ${post.date ? `<div class="linkedin-card__date">${post.date}</div>` : ""}
+                </div>
+              </div>
+
+              ${post.image ? `<img class="linkedin-card__image" src="${post.image}" alt="">` : ""}
+
+              ${post.text ? `<p class="linkedin-card__text">${post.text}</p>` : ""}
+
+              <div class="linkedin-card__actions">
+                ${post.url ? `<a class="linkedin-card__link" href="${post.url}" target="_blank" rel="noopener noreferrer">View on LinkedIn →</a>` : ""}
+              </div>
+            </article>
+          `;
+        });
+
+        html += `
+            </div>
+          </section>
+        `;
+
+        container.innerHTML = html;
+      })
+      .catch(function (err) {
+        console.error("LinkedIn feed error:", err);
+        container.innerHTML = '<div class="linkedin-feed__state linkedin-feed__state--error">Unable to load LinkedIn posts.</div>';
+      });
+  });
+});
+</script>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/g4UnC8P-9nE&amp;t?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
@@ -266,7 +335,15 @@
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          <div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 0 4px; overflow: hidden; max-width: 504px; text-align: center;">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7432312829577437184"
+          height="600"
+          width="504"
+          frameborder="0"
+          allowfullscreen=""
+          title="LinkedIn Post"
+          style="display: block; margin: 0 auto;"></iframe>
+</div>
         </div>
         <a href="/positions/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
