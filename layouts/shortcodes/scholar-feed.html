@@ -1,5 +1,5 @@
 {{ $user := .Get "user" }}
-{{ $limit := .Get "limit" | default "10" }}
+{{ $limit := .Get "limit" | default "50" }}
 {{ $sort := .Get "sort" | default "year_desc" }}
 {{ $title := .Get "title" | default "All Publications" }}
 
@@ -31,19 +31,49 @@
     return Number.isFinite(n) ? n : fallback;
   }
 
+  function normalizeText(str) {
+    return String(str ?? "").toLowerCase().trim();
+  }
+
   function sortPublications(pubs, sort) {
     const items = [...pubs];
+
     if (sort === "cites_desc") {
       items.sort((a, b) => asNumber(b.cited_by) - asNumber(a.cited_by));
     } else if (sort === "year_asc") {
       items.sort((a, b) => asNumber(a.year) - asNumber(b.year));
+    } else if (sort === "title_asc") {
+      items.sort((a, b) => normalizeText(a.title).localeCompare(normalizeText(b.title)));
     } else {
       items.sort((a, b) => asNumber(b.year) - asNumber(a.year));
     }
+
     return items;
   }
 
-  function buildPublicationItem(p) {
+  function filterPublications(pubs, yearFilter, searchTerm) {
+    let items = [...pubs];
+
+    if (yearFilter && yearFilter !== "all") {
+      items = items.filter((p) => String(p.year || "") === yearFilter);
+    }
+
+    if (searchTerm) {
+      const q = normalizeText(searchTerm);
+      items = items.filter((p) => {
+        return [
+          p.title,
+          p.authors,
+          p.venue,
+          p.year
+        ].some((field) => normalizeText(field).includes(q));
+      });
+    }
+
+    return items;
+  }
+
+  function buildPublicationCard(p) {
     const title = escapeHtml(p.title || "Untitled");
     const authors = escapeHtml(p.authors || "");
     const venue = escapeHtml(p.venue || "");
@@ -55,31 +85,33 @@
       : title;
 
     return `
-      <li class="scholar-feed__item">
-        <article class="scholar-feed__card">
-          <h3 class="scholar-feed__paper-title">
-            ${titleHtml}
-            ${year ? `<span class="scholar-feed__year">${year}</span>` : ""}
-          </h3>
+      <article class="scholar-feed__card">
+        <div class="scholar-feed__card-main">
+          <h3 class="scholar-feed__paper-title">${titleHtml}</h3>
+
           <div class="scholar-feed__meta">
             ${authors ? `<div class="scholar-feed__authors">${authors}</div>` : ""}
             ${venue ? `<div class="scholar-feed__venue">${venue}</div>` : ""}
           </div>
-          <div class="scholar-feed__links">
-            ${citedBy ? `<span class="scholar-feed__badge">Cited by ${citedBy}</span>` : ""}
-          </div>
-        </article>
-      </li>
+        </div>
+
+        <div class="scholar-feed__card-side">
+          ${year ? `<span class="scholar-feed__chip">${year}</span>` : ""}
+          ${citedBy ? `<span class="scholar-feed__chip">Cited by ${citedBy}</span>` : ""}
+        </div>
+      </article>
     `;
   }
 
   function renderFeed(container, data) {
-    const limit = asNumber(container.dataset.limit, 10);
-    const sort = container.dataset.sort || "year_desc";
+    const limit = asNumber(container.dataset.limit, 50);
+    const defaultSort = container.dataset.sort || "year_desc";
     const blockTitle = container.dataset.title || "All Publications";
 
-    let pubs = Array.isArray(data) ? data : (data.publications || []);
-    pubs = sortPublications(pubs, sort).slice(0, limit);
+    const pubs = Array.isArray(data) ? data : (data.publications || []);
+    const years = [...new Set(
+      pubs.map((p) => String(p.year || "")).filter(Boolean)
+    )].sort((a, b) => Number(b) - Number(a));
 
     const scholarProfile = data.profile_url
       ? `<a class="scholar-feed__profile-link" href="${data.profile_url}" target="_blank" rel="noopener noreferrer">Google Scholar</a>`
@@ -94,11 +126,66 @@
           </div>
           ${scholarProfile}
         </div>
-        <ol class="scholar-feed__list">
-          ${pubs.map(buildPublicationItem).join("")}
-        </ol>
+
+        <div class="scholar-feed__controls">
+          <div class="scholar-feed__control">
+            <label for="scholar-sort">Sort</label>
+            <select id="scholar-sort" class="scholar-feed__select">
+              <option value="year_desc" ${defaultSort === "year_desc" ? "selected" : ""}>Year: newest first</option>
+              <option value="year_asc" ${defaultSort === "year_asc" ? "selected" : ""}>Year: oldest first</option>
+              <option value="cites_desc" ${defaultSort === "cites_desc" ? "selected" : ""}>Most cited</option>
+              <option value="title_asc" ${defaultSort === "title_asc" ? "selected" : ""}>Title: A–Z</option>
+            </select>
+          </div>
+
+          <div class="scholar-feed__control">
+            <label for="scholar-year">Year</label>
+            <select id="scholar-year" class="scholar-feed__select">
+              <option value="all">All years</option>
+              ${years.map((year) => `<option value="${year}">${year}</option>`).join("")}
+            </select>
+          </div>
+
+          <div class="scholar-feed__control scholar-feed__control--search">
+            <label for="scholar-search">Search</label>
+            <input id="scholar-search" class="scholar-feed__input" type="text" placeholder="Title, author, venue">
+          </div>
+        </div>
+
+        <div class="scholar-feed__results-info"></div>
+        <div class="scholar-feed__cards"></div>
       </section>
     `;
+
+    const cardsEl = container.querySelector(".scholar-feed__cards");
+    const sortEl = container.querySelector("#scholar-sort");
+    const yearEl = container.querySelector("#scholar-year");
+    const searchEl = container.querySelector("#scholar-search");
+    const infoEl = container.querySelector(".scholar-feed__results-info");
+
+    function update() {
+      const sortValue = sortEl.value;
+      const yearValue = yearEl.value;
+      const searchValue = searchEl.value;
+
+      let filtered = filterPublications(pubs, yearValue, searchValue);
+      filtered = sortPublications(filtered, sortValue).slice(0, limit);
+
+      infoEl.innerHTML = `<span>${filtered.length} publication${filtered.length === 1 ? "" : "s"}</span>`;
+
+      if (!filtered.length) {
+        cardsEl.innerHTML = `<div class="scholar-feed__empty">No publications match the current filters.</div>`;
+        return;
+      }
+
+      cardsEl.innerHTML = filtered.map(buildPublicationCard).join("");
+    }
+
+    sortEl.addEventListener("change", update);
+    yearEl.addEventListener("change", update);
+    searchEl.addEventListener("input", update);
+
+    update();
   }
 
   function renderError(container, message) {
@@ -108,8 +195,6 @@
   document.querySelectorAll(".scholar-feed").forEach((container) => {
     const user = container.dataset.user;
     const feedUrl = `/scholar/${encodeURIComponent(user)}.json`;
-
-    console.log("Scholar feed URL:", feedUrl);
 
     fetch(feedUrl)
       .then((response) => {

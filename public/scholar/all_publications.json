@@ -101,14 +101,6 @@
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2420252122"
     },
     {
-      "title": "Hap-pulse: A wearable vibrotactile glove for medical pulse wave rendering",
-      "authors": "Hu Luo and Yuxiang Fu and Ning Ding and Chenyu Dong and Yuru Zhang and Dangxiao Wang",
-      "venue": "IEEE Transactions on Haptics",
-      "year": 2022,
-      "cited_by": 10,
-      "url": "https://ieeexplore.ieee.org/abstract/document/9730000/"
-    },
-    {
       "title": "Spatio-temporal dynamical indices for complex systems",
       "authors": "Chenyu Dong and Gabriele Messori and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
       "venue": "Chaos, Solitons & Fractals",
@@ -144,67 +136,12 @@
       "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
     },
     {
-      "title": "Towards Affective Evaluation of STEM Education: Leveraging MLLMs in Project-Based Learning",
-      "authors": "Xinyi Wu and Yanhao Jia and Qinglin Zhang and Yiran Qin and Luwei Xiao and Shuai Zhao",
-      "venue": "IEEE Transactions on Affective Computing",
-      "year": 2026,
-      "cited_by": 13,
-      "url": "https://ieeexplore.ieee.org/abstract/document/11361133/"
-    },
-    {
-      "title": "SenticNet 9: Generative commonsense for emotion AI via conceptual primitive discovery and time shift mechanism",
-      "authors": "Erik Cambria and Rui Mao and Xulang Zhang and Luwei Xiao and Tiesunlong Shen and Avinash Anand",
-      "venue": "IEEE Transactions on Computational Social Systems",
-      "year": 2026,
-      "cited_by": 4,
-      "url": "https://scholar.google.com/scholar?cluster=1860075172549483657&hl=en&oi=scholarr"
-    },
-    {
-      "title": "Backdoor Defense for Large Language Models with Weak-to-Strong Knowledge Distillation",
-      "authors": "Yuwen Li and Xinyi Wu and Zhongliang Guo and Luwei Xiao and Yanhao Jia and Shuai Zhao",
-      "venue": "Pattern Recognition",
-      "year": 2026,
-      "cited_by": 1,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0031320325016930"
-    },
-    {
-      "title": "Human-Centered Pathways to Trustworthy AI in Healthcare: A Comparative Analysis of Explainable AI, Human-in-the-Loop, Hybrid AI, and Uncertainty Quantification Techniques",
-      "authors": "Ali Kohan and Junjie Xu and Luwei Xiao and Xingjiao Wu and Ashima Kukkar and Sadiq Hussain and Mohamad Roshanzamir and Roohallah Alizadehsani and U Rajendra Acharya",
-      "year": 2026,
-      "cited_by": 0,
-      "url": "https://www.researchsquare.com/article/rs-8976235/latest"
-    },
-    {
-      "title": "AOSNet-Sec: Aperture\u2013Orientation\u2013Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution",
-      "authors": "Zhengnan Yin and Luwei Xiao and Xuan Feng and Yiwei Chen and Xianxun Zhu and Cai Luo and Faten S Alamri and Rui Mao and Erik Cambria",
-      "venue": "Pattern Recognition",
-      "year": 2026,
-      "cited_by": 0,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326003110"
-    },
-    {
-      "title": "A Survey of LLM Reasoning in Healthcare and Medicine: from Individual Modeling to Collaborative Agents",
-      "authors": "Qika Lin and Luwei Xiao and Bin Pu and Kaize Shi and Yanrui Du and Jiaxing Xu and Kai He and Shuai Zhao and Erik Cambria and Swapnil Mishra and Mengling Feng",
-      "venue": "Authorea Preprints",
-      "year": 2026,
-      "cited_by": 0,
-      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.177127364.46765828"
-    },
-    {
       "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
       "authors": "Keane Ong and Sabri Boughorbel and Luwei Xiao and Chanakya Ekbote and Wei Dai and Ao Qu and Jingyao Wu and Rui Mao and Ehsan Hoque and Erik Cambria and Gianmarco Mengaldo and Paul Pu Liang",
       "venue": "arXiv preprint arXiv:2602.10635",
       "year": 2026,
       "cited_by": 0,
       "url": "https://arxiv.org/abs/2602.10635"
-    },
-    {
-      "title": "Affective Flow Language Model for Emotional Support Conversation",
-      "authors": "Chenghui Zou and Ning Wang and Tiesunlong Shen and Luwei Xiao and Chuan Ma and Xiangpeng Li and Rui Mao and Erik Cambria",
-      "venue": "arXiv preprint arXiv:2602.08826",
-      "year": 2026,
-      "cited_by": 0,
-      "url": "https://arxiv.org/abs/2602.08826"
     },
     {
       "title": "Dynamical errors in machine learning forecasts",
@@ -223,27 +160,12 @@
       "url": "https://arxiv.org/abs/2407.19683"
     },
     {
-      "title": "Understanding via exploration: Discovery of interpretable features with deep reinforcement learning",
-      "authors": "Jiawen Wei and Zhifeng Qiu and Fangyuan Wang and Wenwei Lin and Ning Gui and Weihua Gui",
-      "venue": "IEEE transactions on neural networks and learning systems",
-      "year": 2022,
-      "cited_by": 13,
-      "url": "https://ieeexplore.ieee.org/abstract/document/9810174/"
-    },
-    {
       "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
       "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2503.08163",
       "year": 2025,
       "cited_by": 5,
       "url": "https://arxiv.org/abs/2503.08163"
-    },
-    {
-      "title": "An embedded feature selection framework for control",
-      "authors": "Jiawen Wei and Fangyuan Wang and Wanxin Zeng and Wenwei Lin and Ning Gui",
-      "year": 2022,
-      "cited_by": 5,
-      "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3539290"
     },
     {
       "title": "Explainability matters: The effect of liability rules on the healthcare sector",
@@ -294,14 +216,6 @@
       "venue": "Available at SSRN 5717653",
       "cited_by": 0,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
-    },
-    {
-      "title": "Feature Engineering Approach to Building Load Prediction: A Case Study for Commercial Building Chiller Plant Optimization in Tropical Weather",
-      "authors": "Zhan Wang and Chen Weidong and Huang Zhifeng and Md Raisul Islam and Chua Kian Jon",
-      "venue": "arXiv preprint arXiv:2502.15780",
-      "year": 2025,
-      "cited_by": 2,
-      "url": "https://arxiv.org/abs/2502.15780"
     },
     {
       "title": "Cluster-Based Reduced-Order Modelling and Control for Chaotic Systems with Extreme Events",

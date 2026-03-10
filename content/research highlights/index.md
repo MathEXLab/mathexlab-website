@@ -55,6 +55,7 @@ sections:
             image: "/images/people/vishal.jpg"
           - name: "Xin"
             image: "/images/people/xin.jpg"
+        
         publications:
           - "A. Gualandi, D. Faranda, C. Marone, M. Cocco, G. Mengaldo, *Deterministic and stochastic chaos characterize laboratory earthquakes*, *Earth and Planetary Science Letters* (2023)."
           - "C. Duong, V. C. Raghuram, A. Lee, R. Mao, G. Mengaldo, E. Cambria, *Neurosymbolic AI for mining public opinions about wildfires*, *Cognitive Computation* (2023)."
