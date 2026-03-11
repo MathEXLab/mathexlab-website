@@ -1,0 +1,73 @@
+{
+  "name": "Jiawen Wei",
+  "profile_url": "https://scholar.google.com/citations?user=Cc-4rGwAAAAJ&hl=en",
+  "updated": "2026-03-06",
+  "publications": [
+    {
+      "title": "Revisiting the robustness of post-hoc interpretability methods",
+      "authors": "Jiawen Wei and Hugues Turbé and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2407.19683",
+      "year": 2024,
+      "cited_by": 19,
+      "url": "https://arxiv.org/abs/2407.19683"
+    },
+    {
+      "title": "Understanding via exploration: Discovery of interpretable features with deep reinforcement learning",
+      "authors": "Jiawen Wei and Zhifeng Qiu and Fangyuan Wang and Wenwei Lin and Ning Gui and Weihua Gui",
+      "venue": "IEEE transactions on neural networks and learning systems",
+      "year": 2022,
+      "cited_by": 13,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9810174/"
+    },
+    {
+      "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2503.08163",
+      "year": 2025,
+      "cited_by": 5,
+      "url": "https://arxiv.org/abs/2503.08163"
+    },
+    {
+      "title": "An embedded feature selection framework for control",
+      "authors": "Jiawen Wei and Fangyuan Wang and Wanxin Zeng and Wenwei Lin and Ning Gui",
+      "year": 2022,
+      "cited_by": 5,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3539290"
+    },
+    {
+      "title": "Explainability matters: The effect of liability rules on the healthcare sector",
+      "authors": "Jiawen Wei and Elena Verona and Andrea Bertolini and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2509.17334",
+      "year": 2025,
+      "cited_by": 1,
+      "url": "https://arxiv.org/abs/2509.17334"
+    },
+    {
+      "title": "eXIAA: eXplainable Injections for Adversarial Attack",
+      "authors": "Leonardo Pesce and Jiawen Wei and Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2511.10088",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2511.10088"
+    },
+    {
+      "title": "Data-driven classification of structural nonlinearities using interpretable deep learning on time series",
+      "authors": "Bayan Abusalameh and Gianmarco Mengaldo and Jiawen Wei",
+      "venue": "Available at SSRN 5717653",
+      "cited_by": 0,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
+    },
+    {
+      "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
+      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
+      "cited_by": 0,
+      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
+    },
+    {
+      "title": "XAI4Science: From Understanding Model Behavior to Discovering New Scientific Knowledge",
+      "authors": "Gianmarco Mengaldo and Jiawen Wei and Christopher J Anders and Mohammad Emtiyaz Khan and Abeba Birhane and Sara Hooker",
+      "cited_by": 0,
+      "url": "https://openreview.net/forum?id=PwoXoEM6e3"
+    }
+  ]
+}

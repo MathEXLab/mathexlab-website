@@ -1,0 +1,100 @@
+<article id="{{ .id }}" class="project-card">
+
+  <div class="project-card-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="project-main">
+
+      <h3 class="project-title">{{ .title }}</h3>
+
+      {{ with .status }}
+      <span class="project-status">{{ . }}</span>
+      {{ end }}
+
+      <div class="project-media">
+        {{ if .video }}
+        <video autoplay muted loop playsinline poster="{{ .poster }}">
+          <source src="{{ .video }}" type="video/mp4">
+        </video>
+        {{ else if .poster }}
+        <img src="{{ .poster }}" alt="{{ .title }}">
+        {{ end }}
+      </div>
+
+      {{ with .summary }}
+      <p class="project-summary">
+        {{ . }}
+      </p>
+      {{ end }}
+
+      {{ with .publications }}
+      <div class="project-section project-publications">
+        <h4>Publications</h4>
+        <ul class="project-publications__list">
+          {{ range . }}
+            <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with .description }}
+      <div class="project-section project-description">
+        {{ range . }}
+          <div class="project-description__block">
+            <h4 class="project-description__heading">{{ .heading }}</h4>
+
+            {{ if reflect.IsSlice .content }}
+              <ul class="project-description__list">
+                {{ range .content }}
+                  <li>{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
+            {{ else }}
+              <p class="project-description__text">{{ .content | markdownify }}</p>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    </div>
+
+
+    <!-- RIGHT COLUMN -->
+    <div class="project-meta">
+
+      {{ with .sponsors }}
+      <div class="project-section">
+        <h4>Sponsors</h4>
+        {{ partial "logo-grid.html" . }}
+      </div>
+      {{ end }}
+
+      {{ with .collaborators }}
+      <div class="project-section">
+        <h4>Collaborators</h4>
+        {{ partial "logo-grid.html" . }}
+      </div>
+      {{ end }}
+
+      {{ with .people }}
+      <div class="project-section">
+        <h4>People</h4>
+        {{ partial "people-grid.html" . }}
+      </div>
+      {{ end }}
+
+      {{ with .link }}
+      <p class="project-cta">
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link dim">
+          View on LinkedIn →
+        </a>
+      </p>
+    {{ end }}
+
+    </div>
+
+  </div>
+
+</article>

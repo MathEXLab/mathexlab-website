@@ -1,0 +1,10 @@
+<div class="logo-grid">
+  {{ range . }}
+    <div class="logo-item">
+      {{ if .url }}<a href="{{ .url }}">{{ end }}
+        <img src="{{ .image }}" alt="{{ .name }}">
+      {{ if .url }}</a>{{ end }}
+      <div class="logo-label">{{ .name }}</div>
+    </div>
+  {{ end }}
+</div>

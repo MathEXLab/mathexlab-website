@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<main class="mw9 center ph3 ph5-l pv4">
+
+<header class="mb4 tl">
+  <h1 class="f2 mb2">{{ .Title }}</h1>
+
+  {{ with .Params.description }}
+    <p class="lh-copy measure-wide">{{ . }}</p>
+  {{ end }}
+</header>
+
+<!-- MINI HIGHLIGHTS -->
+{{ partial "mini-highlights.html" . }}
+
+<!-- FULL POSITION CARDS -->
+
+{{ range .Params.sections }}
+
+<section id="{{ .id }}" class="mb5">
+
+  <h2 class="f3 mb3 tl">{{ .title }}</h2>
+
+  {{ range .projects }}
+
+    {{ partial "project-card.html" . }}
+
+  {{ end }}
+
+</section>
+
+{{ end }}
+
+</main>
+
+{{ end }}

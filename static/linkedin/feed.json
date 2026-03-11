@@ -1,0 +1,24 @@
+{
+  "profile_name": "MathExLab",
+  "profile_url": "https://www.linkedin.com/company/mathexlab/",
+  "profile_image": "/images/linkedin/mathexlab-logo.png",
+  "posts": [
+    {
+      "date": "2026-03-05",
+      "text": "Our latest paper on explainable NLP for corporate sustainability analysis is now out in Information Fusion.",
+      "url": "https://www.linkedin.com/posts/example-post-1/",
+      "image": "/images/linkedin/post-1.jpg"
+    },
+    {
+      "date": "2026-02-20",
+      "text": "We are excited to share new work on extreme weather analytics and domain-aligned language models.",
+      "url": "https://www.linkedin.com/posts/example-post-2/"
+    },
+    {
+      "date": "2026-02-10",
+      "text": "New collaboration update from MathExLab on interpretable AI and climate resilience.",
+      "url": "https://www.linkedin.com/posts/example-post-3/",
+      "image": "/images/linkedin/post-3.jpg"
+    }
+  ]
+}
