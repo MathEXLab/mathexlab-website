@@ -1,0 +1,75 @@
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 3rem 3.5rem;
+  margin: 2rem 0 4rem;
+}
+
+.people-card {
+  text-align: center;
+}
+
+.people-card img {
+  display: block;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 1.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.people-card h2,
+.people-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #000;
+}
+
+.people-role {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  color: #111;
+}
+
+.people-bio {
+  max-width: 34rem;
+  margin: 0 auto;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: #111;
+  text-align: justify;
+}
+
+.people-bio p {
+  margin: 0 0 0.85rem;
+}
+
+@media (max-width: 900px) {
+  .people-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .people-card img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .people-card h2,
+  .people-card h3 {
+    font-size: 1.55rem;
+  }
+
+  .people-role {
+    font-size: 1rem;
+  }
+
+  .people-bio {
+    text-align: justify;
+  }
+}

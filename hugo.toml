@@ -3,12 +3,16 @@ languageCode = 'en-us'
 title = 'MathExLab'
 theme = 'ananke'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 text_color = ""
 author = ""
 favicon = ""
-site_logo = ""
+site_logo = "no_fill.001.png"
 description = "Mathematical and Computational Lab for Complex Systems"
+custom_css = ["custom.css"]
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-black"
 recent_posts_number = 3
@@ -16,4 +20,3 @@ recent_posts_number = 3
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/company/mathexlab"
-

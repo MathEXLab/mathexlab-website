@@ -5,7 +5,7 @@ description: "Mathematical and Computational Lab for Complex Systems"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
 cascade:
-  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+  featured_image: 'main.001.png'
 ---
 # What we do
 We adopt an interdisciplinary approach for the analysis and forecast of complex systems. Understanding and modeling complex systems require integrating different disciplines with mathematics being the unifying language.
