@@ -27,7 +27,7 @@ sections:
     - name: "Xin Wang"
       role: "Research Fellow"
       image: "/images/people/xin.png"
-      bio: ""
+      bio: "Xin Wang is a postdoctoral research fellow at MathEXLab in AI for Weather and Climate, specializing in hybrid ML-climate models that enhance the accuracy and efficiency of climate simulations. His research includes the first stable hybrid ML-GCM simulation under real-world conditions and the physically constrained hybrid ML climate model that first ensures long-term stability and physical consistency without manual tuning. Xin Wang now focuses on hybrid ML-physics modeling, LLMs for climate, and explainable AI for weather and climate."
 
   - id : "phd-students"
     title: "PhD Students"
@@ -67,12 +67,31 @@ sections:
       image: "/images/people/leo.png"
       bio: "Leonardo Pesce is a PhD student in the Department of Mechanical Engineering at the National University of Singapore, advised by Prof. Gianmarco Mengaldo. His research focuses on explainable artificial intelligence, especially methods for extracting human-aligned explanations and using them to improve the performance, accuracy, and robustness of machine learning models across domains such as LLMs, foundation models, reinforcement learning, climate, weather forecasting, and robotics."
 
+    - name: "Vishal SRIVASTAVA"
+      role: "PhD Student"
+      image: "/images/people/vishal.png"
+      bio: ""
+
+    - name: "Yuxuan YANG"
+      role: "PhD Student"
+      image: "/images/people/yuxuan.png"
+      bio: ""
+
     - name: "Zhou FANG"
       role: "PhD Student"
       image: "/images/people/zhou.png"
       bio: "Zhou FANG is a Ph.D. candidate at the National University of Singapore (NUS), supervised by Prof. Gianmarco Mengaldo. Her research lies at the intersection of dynamical systems theory and machine learning, with a focus on scientific machine learning for modeling and forecasting complex dynamical systems. She studies how dynamical systems principles can be used to evaluate, interpret, and improve machine learning models, especially for predictive modeling in scientific domains, with climate science as a primary application area within AI for Science."
 
-  - id: "master-students"
-    title: "Master Students"
-    people: []
+  - id: "collaborators"
+    title: "Collaborators and Alumni"
+    people:
+    - name: "Andrew TAN"
+      role: "Undergraduate Student"
+
+    - name: "Adamya Singh DHAKER"
+      role: "Alumni - Master Student"
+
+    - name: "Sharun Arumugam"
+      role: "Alumni - Research Engineer"
+      
 ---
