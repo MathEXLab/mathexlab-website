@@ -4,7 +4,7 @@ layout: "publications"
 description: "Publications from MathEXLab."
 menu:
   main:
-    weight: 1
+    weight: 4
 
 sections:
 

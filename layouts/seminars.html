@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<main class="page-shell">
+
+  {{ range .Params.sections }}
+    <section id="{{ .id }}" class="content-section">
+      <h2 class="section-title">{{ .title }}</h2>
+
+      {{ with .intro }}
+        <div class="section-intro">
+          {{ range . }}
+            <p class="section-intro">{{ . | markdownify }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .projects }}
+        <div class="projects-list">
+          {{ range . }}
+            {{ partial "project-card.html" . }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+
+</main>
+
+{{ end }}

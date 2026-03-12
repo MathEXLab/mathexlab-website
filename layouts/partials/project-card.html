@@ -1,3 +1,4 @@
+{{ $hasRightCol := or .sponsors .collaborators .people }}
 <article id="{{ .id }}" class="project-card">
 
   <div class="project-card-grid">
@@ -10,6 +11,14 @@
       {{ with .status }}
       <span class="project-status">{{ . }}</span>
       {{ end }}
+
+      {{ with .link }}
+      <p class="project-cta">
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link dim">
+          View on LinkedIn →
+        </a>
+      </p>
+    {{ end }}
 
       <div class="project-media">
         {{ if .video }}
@@ -62,6 +71,7 @@
 
 
     <!-- RIGHT COLUMN -->
+     {{ if $hasRightCol }}
     <div class="project-meta">
 
       {{ with .sponsors }}
@@ -85,16 +95,8 @@
       </div>
       {{ end }}
 
-      {{ with .link }}
-      <p class="project-cta">
-        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link dim">
-          View on LinkedIn →
-        </a>
-      </p>
-    {{ end }}
-
     </div>
-
+  {{ end }}
   </div>
 
 </article>

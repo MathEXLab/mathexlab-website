@@ -5,7 +5,7 @@ description: "Join Us"
 featured_image: '/images/Victor_Hugo-Hunchback.jpg'
 menu:
   main:
-    weight: 1
+    weight: 6
 
 sections:
 
@@ -20,12 +20,13 @@ sections:
         featured: true
 
         summary: "We are recruiting full-time Research Felows to develop hybrid physics-AI for weather applications."
-
-        collaborators:
-          - name: "NUS"
-            image: "/images/collaborators/nus.png"
         
         description :
+        - content:
+          - "**Location:** Singapore"
+          - "**Type:** Full-time"
+          - "**Deadline:** Open until filled"
+        
         - heading: "The Team"
           content: "MathEXLab is an interdisciplinary research lab at the National University of Singapore (NUS), led by Assistant Professor Gianmarco Mengaldo. We develop next-generation mathematical modelling and AI methods for understanding and predicting complex systems, with applications in weather and climate, fluid mechanics, robotics, and socio-technical systems."
 
@@ -58,10 +59,6 @@ sections:
             - "Assistant Professor Gianmarco Mengaldo | Email: mpegim@nus.edu.sg."
             - "Please include: CV, a short statement of research interests and fit, and 1–3 representative papers or a code repository link."
 
-        location: "Singapore"
-        type: "Full-time"
-        deadline: "Open until filled"
-
         link: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7432312829577437184"
 
 
@@ -72,11 +69,11 @@ sections:
 
         summary: "We are recruiting full-time PhD students to join our group at National University of Singapore."
 
-        collaborators:
-          - name: "NUS"
-            image: "/images/collaborators/nus.png"
-        
         description :
+        - content:
+          - "**Location:** Singapore"
+          - "**Type:** Full-time"
+          - "**Deadline:** Open until filled"
         - heading: "The Team"
           content: "MathEXLab is an interdisciplinary research lab at the National University of Singapore (NUS), led by Assistant Professor Gianmarco Mengaldo. We develop next-generation mathematical modelling and AI methods for understanding and predicting complex systems, with applications in weather and climate, fluid mechanics, robotics, and socio-technical systems."
 
@@ -89,10 +86,6 @@ sections:
         - heading: "How to apply / contact"
           content:
             - "Assistant Professor Gianmarco Mengaldo | Email: mpegim@nus.edu.sg."
-
-        location: "Singapore"
-        type: "Full-time"
-        deadline: "Open until filled"
 
         link: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7432312829577437184"
 ---

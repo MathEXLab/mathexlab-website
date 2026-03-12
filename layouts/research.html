@@ -1,27 +1,22 @@
 {{ define "main" }}
-<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-  <header class="pv4 tl">
-  <h1 class="f2 f1-l">{{ .Params.intro.heading }}</h1>
-  <p class="f4 mid-gray">{{ .Params.intro.subheading }}</p>
-</header>
+<main class="page-shell">
 
-{{ with .Params.intro.blurb }}
-    <section class="mb5 tl">
-      {{ range . }}
-        <p class="tl">{{ . | markdownify }}</p>
-      {{ end }}
-    </section>
-  {{ end }}
 
   {{ partial "mini-highlights.html" . }}
 
+
+
   {{ range .Params.sections }}
-    <section id="{{ .id }}" class="mb6 tl">
-      <header class="mb4 tl">
-        <h2 class="f2 mb2 tl">{{ .title }}</h2>
-        <p class="f4 dark-gray mt0 mb3 tl">{{ .subtitle }}</p>
-        <p class="lh-copy measure-wide mt0 tl">{{ .description }}</p>
-      </header>
+    <section id="{{ .id }}" class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">{{ .title }}</h2>
+        {{ with .subtitle }}
+          <p class="section-intro">{{ . }}</p>
+        {{ end }}
+        {{ with .description }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </div>
 
       <div class="projects-grid">
         {{ range .projects }}

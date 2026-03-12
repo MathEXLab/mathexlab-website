@@ -8,18 +8,11 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gallery</title>
-      <link>http://localhost:1313/gallery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>People</title>
       <link>http://localhost:1313/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/people/</guid>
-      <description>&lt;h1 id=&#34;principal-investigator&#34;&gt;Principal Investigator&lt;/h1&gt;&#xA;&lt;div class=&#34;people-grid&#34;&gt;&#xA;  &lt;div class=&#34;people-card&#34;&gt;&#xA;    &lt;img src=&#34;images/Gian.png&#34; alt=&#34;Gianmarco Mengaldo&#34;&gt;&#xA;    &lt;h2&gt;Gianmarco Mengaldo&lt;/h2&gt;&#xA;    &lt;p class=&#34;people-role&#34;&gt;Principal Investigator&lt;/p&gt;&#xA;    &lt;div class=&#34;people-bio&#34;&gt;&#xA;      &lt;p&gt;Dr Gianmarco Mengaldo is an Assistant Professor in the Department of Mechanical Engineering at the National University of Singapore and an Honorary Research Fellow at Imperial College London. He received his BSc and MSc in Aerospace Engineering from Politecnico di Milano and his PhD in Aeronautical Engineering from Imperial College London, and has held roles at ECMWF, Caltech, and KBW. His research adopts an interdisciplinary approach combining mathematics and computational engineering, with current interests in explainable AI, AI and domain knowledge, coherent pattern identification, and high-fidelity multiphysics simulation across engineering, geophysics, healthcare, and finance.&lt;/p&gt;</description>
+      <description></description>
     </item>
     <item>
       <title>Positions</title>
@@ -47,7 +40,7 @@
       <link>http://localhost:1313/seminars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/seminars/</guid>
-      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;MathExLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community. These talks span the core themes of the group and create space for discussion across applied mathematics, physics, machine learning, and scientific computing.&lt;/p&gt;&#xA;&lt;p&gt;In addition to invited talks, we also run an internal seminar series where members of the lab present their ongoing research in the form of 30-minute talks. These sessions are intended to encourage feedback, discussion, and exchange across projects within MathExLab.&lt;/p&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>

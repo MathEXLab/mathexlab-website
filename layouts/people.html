@@ -1,0 +1,42 @@
+{{ define "main" }}
+<main class="page-shell">
+
+  {{ range .Params.sections }}
+    <section id="{{ .id }}" class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">{{ .title }}</h2>
+      </div>
+
+      {{ with .people }}
+        {{ if gt (len .) 0 }}
+          <div class="people-page-grid">
+            {{ range . }}
+              {{ $person := . }}
+              <article class="people-page-card">
+                {{ with $person.image }}
+                  <img src="{{ . }}" alt="{{ $person.name }}" class="people-page-image">
+                {{ end }}
+
+                <h3 class="people-page-name">{{ $person.name }}</h3>
+
+                {{ with $person.role }}
+                  <p class="people-page-role">{{ . }}</p>
+                {{ end }}
+
+                {{ with $person.bio }}
+                  <div class="people-page-bio">
+                    <p>{{ . }}</p>
+                  </div>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="section-intro">Details will be added here.</p>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+
+</main>
+{{ end }}
