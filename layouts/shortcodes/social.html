@@ -2,6 +2,7 @@
 {{- if not $url -}}
   {{- errorf "'url' is a required field." -}}
 {{- end -}}
+{{ $link := .Get "link" | default $url }}
 
 {{- $width := or (.Get "width") "504" -}}
 {{- $height := or (.Get "height") "600" -}}
@@ -55,15 +56,21 @@
   {{ template "fetchOEmbedHTML" $bskyReq }}
 
 {{- else if in $url "linkedin.com" -}}
-<div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 0 4px; overflow: hidden; max-width: {{ $width }}px; text-align: center;">
+<div style="border-radius: 12px; overflow: hidden; width:100%;">
   <iframe src="{{ $url | safeURL }}"
           height="{{ $height }}"
-          width="{{ $width }}"
+          width="100%"
           frameborder="0"
-          allowfullscreen=""
+          allowfullscreen
           title="LinkedIn Post"
-          style="display: block; margin: 0 auto;"></iframe>
+          style="display:block;width:100%;border:0;"></iframe>
 </div>
+
+<p style="margin-top:0.5rem;">
+  <a href="{{ $link }}" target="_blank" rel="noopener noreferrer" class="link dim">
+    View on LinkedIn →
+  </a>
+</p>
 
 {{- else -}}
   {{- errorf "Unsupported url format or social platform." -}}

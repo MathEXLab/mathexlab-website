@@ -1,27 +1,19 @@
 {{ define "main" }}
 
-<main class="mw9 center ph3 ph5-l pv4">
-
-  <header class="mb4 tl">
-    <h1 class="f2 mb2">{{ .Title }}</h1>
-
-    {{ with .Params.description }}
-      <p class="lh-copy measure-wide">{{ . }}</p>
-    {{ end }}
-  </header>
+<main class="page-shell">
 
   {{ partial "mini-highlights.html" . }}
 
   {{ range .Params.sections }}
-    <section id="{{ .id }}" class="mb5">
+    <section id="{{ .id }}" class="content-section">
 
-      <h2 class="f3 mb3 tl">{{ .title }}</h2>
+      <h2 class="section-title">{{ .title }}</h2>
 
       <div class="publication-list">
         {{ range .projects }}
           <article id="{{ .id }}" class="publication-card">
 
-            <h3 class="f4 mb2">{{ .title }}</h3>
+            <h3 class="project-title">{{ .title }}</h3>
 
             {{ with .summary }}
               <p>{{ . }}</p>

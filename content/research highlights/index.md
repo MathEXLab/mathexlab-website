@@ -4,19 +4,18 @@ layout: "research"
 description: "Selected research projects at MathEXLab."
 menu:
   main:
-    weight: 1
+    weight: 2
 
 intro:
-  heading: "Selected Research"
-  subheading: "Discover our projects"
-  blurb:
-    - "We adopt an interdisciplinary approach for the analysis and forecast of complex systems."
-    - "We are committed to reproducible, open-source, and high-performance software."
+  heading: "heading"
+  subheading: "subheading"
+  blurb: 
+  - "We adopt an interdisciplinary approach for the analysis and forecast of complex systems. We are committed to reproducible, open-source, and high-performance software."
+
 
 sections:
   - id: "ddm"
-    title: "Data-driven modeling"
-    subtitle: "Explainable AI"
+    title: "Data-driven modeling and Explainable AI"
     description: "We are developing fast forecasting tools for multivariate time series modeling and forecasting, combining data compression techniques with neural networks and interpretability methods."
     projects:
       - id: "weather-digital-twins"
@@ -46,15 +45,15 @@ sections:
             image: "/images/collaborators/cambridge.png"
         people:
           - name: "PI"
-            image: "/images/people/gianmarco.jpg"
+            image: "/images/people/gianmarco.png"
           - name: "Zhou"
-            image: "/images/people/zhou.jpg"
+            image: "/images/people/zhou.png"
           - name: "Chenyu"
-            image: "/images/people/chenyu.jpg"
+            image: "/images/people/chenyu.png"
           - name: "Vishal"
-            image: "/images/people/vishal.jpg"
+            image: "/images/people/vishal.png"
           - name: "Xin"
-            image: "/images/people/xin.jpg"
+            image: "/images/people/xin.png"
         
         publications:
           - "A. Gualandi, D. Faranda, C. Marone, M. Cocco, G. Mengaldo, *Deterministic and stochastic chaos characterize laboratory earthquakes*, *Earth and Planetary Science Letters* (2023)."
@@ -82,22 +81,21 @@ sections:
             image: "/images/collaborators/cambridge.png"
         people:
           - name: "PI"
-            image: "/images/people/gianmarco.jpg"
+            image: "/images/people/gianmarco.png"
           - name: "Jiawen"
-            image: "/images/people/jiawen.jpg"
+            image: "/images/people/jiawen.png"
           - name: "Bayan"
-            image: "/images/people/bayan.jpg"
+            image: "/images/people/bayan.png"
           - name: "Keane"
-            image: "/images/people/keane.jpg"
+            image: "/images/people/keane.png"
           - name: "Vishal"
-            image: "/images/people/vishal.jpg"
+            image: "/images/people/vishal.png"
         publications:
           - "H. Turbé, M. Bjelogrlic, C. Lovis, G. Mengaldo, *Evaluation of post-hoc interpretability methods in time-series classification*, *Nature Machine Intelligence* (2023)."
 
   - id: "kdm"
-    title: "Knowledge-driven modeling"
+    title: "Knowledge-driven modeling and Dynamical system theory"
     featured: true
-    subtitle: "Dynamical system theory"
     description: "We are developing methods to identify the predictability of complex systems, rooted in dynamical systems and extreme value theory."
     projects:
       - id: "rebot"
@@ -116,9 +114,9 @@ sections:
             image: "/images/collaborators/nus.png"
         people:
           - name: "Co-PI"
-            image: "/images/people/gianmarco.jpg"
+            image: "/images/people/gianmarco.png"
           - name: "Adamya"
-            image: "/images/people/adamya.jpg"
+            image: "/images/people/adamya.png"
         publications:
           - "G. Mengaldo, F. Renda, S. Brunton, et al., *A concise guide to modelling the physics of embodied intelligence in soft robotics*, *Nature Reviews Physics* (2022)."
 ---
