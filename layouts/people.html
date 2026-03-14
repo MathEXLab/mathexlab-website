@@ -23,6 +23,42 @@
                   <p class="people-page-role">{{ . }}</p>
                 {{ end }}
 
+                {{ with .links }}
+                  <div class="people-links">
+
+                    {{ with .email }}
+                    <a href="mailto:{{ . }}" class="people-link" title="Email">
+                      <img src="/images/icons/email.png" alt="Email">
+                    </a>
+                    {{ end }}
+
+                    {{ with .linkedin }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="LinkedIn">
+                      <img src="/images/icons/linkedin.png" alt="LinkedIn">
+                    </a>
+                    {{ end }}
+
+                    {{ with .scholar }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="Google Scholar">
+                      <img src="/images/icons/scholar.png" alt="Google Scholar">
+                    </a>
+                    {{ end }}
+
+                    {{ with .researchgate }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="Research Gate">
+                      <img src="/images/icons/researchgate.png" alt="Research Gate">
+                    </a>
+                    {{ end }}
+
+                    {{ with .github}}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="GitHub">
+                      <img src="/images/icons/github.png" alt="GitHub">
+                    </a>
+                    {{ end }}
+
+                  </div>
+                  {{ end }}
+
                 {{ with $person.bio }}
                   <div class="people-page-bio">
                     <p>{{ . }}</p>

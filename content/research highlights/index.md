@@ -38,7 +38,7 @@ sections:
           - name: "Argonne"
             image: "/images/collaborators/argonne.png"
           - name: "CNRS"
-            image: "/images/collaborators/cnrs.png"
+            image: "/images/collaborators/cnrs.svg"
           - name: "ENS"
             image: "/images/collaborators/ens.png"
           - name: "Cambridge"
