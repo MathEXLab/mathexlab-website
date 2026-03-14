@@ -758,3 +758,46 @@ html {
     text-align: justify;
   }
 }
+
+
+.people-links {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+/* icon container */
+.people-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #f3f4f6;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+/* FORCE SVG SIZE */
+.people-link img {
+  width: 25px !important;
+  height: 25px !important;
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 25px !important;;
+  max-height: 25px !important;;
+  display: block;
+  fill: #374151;
+}
+
+/* prevent theme rules affecting it */
+.people-link img * {
+  vector-effect: non-scaling-stroke;
+}
+
+.people-link:hover {
+  background: #e5e7eb;
+}
