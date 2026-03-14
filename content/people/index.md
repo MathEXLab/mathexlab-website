@@ -67,15 +67,10 @@ sections:
       image: "/images/people/leo.png"
       bio: "Leonardo Pesce is a PhD student in the Department of Mechanical Engineering at the National University of Singapore, advised by Prof. Gianmarco Mengaldo. His research focuses on explainable artificial intelligence, especially methods for extracting human-aligned explanations and using them to improve the performance, accuracy, and robustness of machine learning models across domains such as LLMs, foundation models, reinforcement learning, climate, weather forecasting, and robotics."
 
-    - name: "Vishal SRIVASTAVA"
-      role: "PhD Student"
-      image: "/images/people/vishal.png"
-      bio: ""
-
     - name: "Yuxuan YANG"
       role: "PhD Student"
       image: "/images/people/yuxuan.png"
-      bio: ""
+      bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
 
     - name: "Zhou FANG"
       role: "PhD Student"
