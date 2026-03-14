@@ -2,7 +2,8 @@
 title: "People"
 description: "Meet our team"
 layout: "people"
-featured_image: "/images/people/feature.png"
+featured_image: "/images/people/group_1.png"
+featured_image_2: "/images/people/group_2.png"
 featured_image_class: "cover bg-center"
 menu:
   main:
@@ -28,7 +29,7 @@ sections:
     people:
     - name: "Luwei XIAO"
       role: "Research Fellow"
-      image: "/images/people/luwei.png"
+      image: "/images/people/New/Louis.png"
       links:
         email: "luwei.xiao@nus.edu.sg"
         linkedin: "https://www.linkedin.com/in/louis-shaw-5867512ab/"
@@ -38,7 +39,7 @@ sections:
       bio: "Luwei Xiao, Ph.D. is a Research Fellow at the National University of Singapore. He obtained his Ph.D. from East China Normal University, where his research focused on AI for Climate, Multimodal Learning, Affective Computing, and LLMs. Dr. Xiao has published over ten papers in leading international journals and conferences, including two ESI Highly Cited Papers. He led the Excellent Doctoral Student Academic Innovation Project at ECNU and has contributed to several major research initiatives, including the NSFC Young Scientist Fund, Shanghai Science and Technology Commission projects, and collaborations with Huawei Noah's Ark Lab."
     - name: "Xin Wang"
       role: "Research Fellow"
-      image: "/images/people/xin.png"
+      image: "/images/people/New/Tsin.png"
       links:
         email: "xin.w24@nus.edu.sg"
         linkedin: "https://www.linkedin.com/in/xin-wang-a7959b232/"
@@ -52,7 +53,7 @@ sections:
     people:
     - name: "Bayan ABUSALAMEH"
       role: "PhD Student"
-      image: "/images/people/bayan.png"
+      image: "/images/people/New/Bayan.png"
       links:
         email: "e1320766@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/bayan-abusalameh-48b0951b8/"
@@ -63,7 +64,7 @@ sections:
     
     - name: "Chenyu DONG"
       role: "PhD Student"
-      image: "/images/people/chenyu.png"
+      image: "/images/people/New/Chenyu.png"
       links:
         email: "chenyu.dong@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/chenyu-dong-ba52a8250/"
@@ -74,7 +75,7 @@ sections:
 
     - name: "Emma ANDREWS"
       role: "PhD Student"
-      image: "/images/people/emma.png"
+      image: "/images/people/New/Emma.png"
       links:
         email: "emma_andrews@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/emma-a-905921148/"
@@ -85,7 +86,7 @@ sections:
 
     - name: "Ethan ZHAN"
       role: "PhD Student"
-      image: "/images/people/ethan.png"
+      image: "/images/people/New/Ethan.png"
       links:
         email: "ethan.zhan@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/ethan-zhan/"
@@ -95,7 +96,7 @@ sections:
 
     - name: "Jiawen WEI"
       role: "PhD Student"
-      image: "/images/people/jiawen.png"
+      image: "/images/people/New/Jiawen.png"
       links:
         email: "jiawenw@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/jiawen-wei-363197200/"
@@ -106,7 +107,7 @@ sections:
 
     - name: "Keane ONG"
       role: "PhD Student"
-      image: "/images/people/keane.png"
+      image: "/images/people/New/Keane.png"
       links:
         email: "keane.ongweiyang@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/kowy/"
@@ -117,7 +118,7 @@ sections:
 
     - name: "Leonardo PESCE"
       role: "PhD Student"
-      image: "/images/people/leo.png"
+      image: "/images/people/New/Leo.png"
       links:
         email: "leonardo_pesce@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/leonardopesce00/"
@@ -126,19 +127,26 @@ sections:
         github: "https://github.com/leonardopesce"
       bio: "Leonardo Pesce is a PhD student in the Department of Mechanical Engineering at the National University of Singapore, advised by Prof. Gianmarco Mengaldo. His research focuses on explainable artificial intelligence, especially methods for extracting human-aligned explanations and using them to improve the performance, accuracy, and robustness of machine learning models across domains such as LLMs, foundation models, reinforcement learning, climate, weather forecasting, and robotics."
 
+    # - name: "Vishal SRIVASTAVA"
+    #   role: "PhD Student"
+    #   image: "/images/people/vishal.png"
+    #   bio: ""
+
     - name: "Yuxuan YANG"
       role: "PhD Student"
-      image: "/images/people/yuxuan.png"
+      image: "/images/people/New/Yuxuan.png"
       links:
         email: "y.yang.65@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/yuxuan-yang-77108024b/"
         scholar: "https://scholar.google.com/citations?hl=en&user=9Z5tCDIAAAAJ"
         researchgate: "https://www.researchgate.net/scientific-contributions/Yuxuan-Yang-2306650955"
       bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
+      image: "/images/people/New/Yuxan.png"
+      bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
 
     - name: "Zhou FANG"
       role: "PhD Student"
-      image: "/images/people/zhou.png"
+      image: "/images/people/New/Zhou.png"
       links:
         email: "zhou.fang@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/zhou-fang-4aaa2a21b/"

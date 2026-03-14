@@ -1,7 +1,10 @@
 ---
 title: "Seminars"
 description: "MathExLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community."
-featured_image: "/images/seminars/feature.jpeg"
+featured_image: "/images/seminars/1.png"
+featured_image_2: "/images/seminars/2.png"
+featured_image_3: "/images/seminars/3.png"
+
 layout: "seminars"
 menu:
   main:
