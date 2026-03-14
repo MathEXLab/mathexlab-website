@@ -54,6 +54,7 @@
   margin: 0 0 0.35rem 0;
   font-size: 1.7rem;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 .section-intro {
@@ -335,6 +336,68 @@
   .highlight-mini-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
+
+/* header image crossfade */
+.header-image-layer {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.header-image-layer--2 {
+  animation: header-crossfade 10s ease-in-out infinite;
+  opacity: 0;
+}
+
+@keyframes header-crossfade {
+  0%, 40%  { opacity: 0; }
+  50%, 90% { opacity: 1; }
+  100%     { opacity: 0; }
+}
+
+/* 6-image cycle (gallery) */
+.header-image-layer--cycle6-1,
+.header-image-layer--cycle6-2,
+.header-image-layer--cycle6-3,
+.header-image-layer--cycle6-4,
+.header-image-layer--cycle6-5,
+.header-image-layer--cycle6-6 {
+  animation: header-crossfade-6 18s ease-in-out infinite;
+  opacity: 0;
+}
+.header-image-layer--cycle6-2 { animation-delay: 3s; }
+.header-image-layer--cycle6-3 { animation-delay: 6s; }
+.header-image-layer--cycle6-4 { animation-delay: 9s; }
+.header-image-layer--cycle6-5 { animation-delay: 12s; }
+.header-image-layer--cycle6-6 { animation-delay: 15s; }
+
+@keyframes header-crossfade-6 {
+  0%    { opacity: 0; }
+  5.6%  { opacity: 1; }
+  11.1% { opacity: 1; }
+  16.7% { opacity: 0; }
+  100%  { opacity: 0; }
+}
+
+/* 3-image cycle (seminars) */
+.header-image-layer--cycle-1,
+.header-image-layer--cycle-2,
+.header-image-layer--cycle-3 {
+  animation: header-crossfade-3 12s ease-in-out infinite;
+  opacity: 0;
+}
+.header-image-layer--cycle-2 { animation-delay: 4s; }
+.header-image-layer--cycle-3 { animation-delay: 8s; }
+
+@keyframes header-crossfade-3 {
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  33%  { opacity: 1; }
+  42%  { opacity: 0; }
+  100% { opacity: 0; }
 }
 
 html {
@@ -756,5 +819,33 @@ html {
 
   .people-bio {
     text-align: justify;
+  }
+}
+
+/* gallery grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
   }
 }

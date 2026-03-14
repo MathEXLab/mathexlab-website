@@ -2,7 +2,8 @@
 title: "People"
 description: "Meet our team"
 layout: "people"
-featured_image: "/images/people/feature.png"
+featured_image: "/images/people/group_1.png"
+featured_image_2: "/images/people/group_2.png"
 featured_image_class: "cover bg-center"
 menu:
   main:
@@ -22,11 +23,11 @@ sections:
     people:
     - name: "Luwei XIAO"
       role: "Research Fellow"
-      image: "/images/people/luwei.png"
+      image: "/images/people/New/Louis.png"
       bio: "Luwei Xiao, Ph.D. is a Research Fellow at the National University of Singapore. He obtained his Ph.D. from East China Normal University, where his research focused on AI for Climate, Multimodal Learning, Affective Computing, and LLMs. Dr. Xiao has published over ten papers in leading international journals and conferences, including two ESI Highly Cited Papers. He led the Excellent Doctoral Student Academic Innovation Project at ECNU and has contributed to several major research initiatives, including the NSFC Young Scientist Fund, Shanghai Science and Technology Commission projects, and collaborations with Huawei Noah's Ark Lab."
     - name: "Xin Wang"
       role: "Research Fellow"
-      image: "/images/people/xin.png"
+      image: "/images/people/New/Tsin.png"
       bio: "Xin Wang is a postdoctoral research fellow at MathEXLab in AI for Weather and Climate, specializing in hybrid ML-climate models that enhance the accuracy and efficiency of climate simulations. His research includes the first stable hybrid ML-GCM simulation under real-world conditions and the physically constrained hybrid ML climate model that first ensures long-term stability and physical consistency without manual tuning. Xin Wang now focuses on hybrid ML-physics modeling, LLMs for climate, and explainable AI for weather and climate."
 
   - id : "phd-students"
@@ -34,52 +35,52 @@ sections:
     people:
     - name: "Bayan ABUSALAMEH"
       role: "PhD Student"
-      image: "/images/people/bayan.png"
+      image: "/images/people/New/Bayan.png"
       bio: "Bayan Abusalameh is a PhD student in the Department of Mechanical Engineering at the National University of Singapore, supervised by Prof. Gianmarco Mengaldo. Her research focuses on the intersection of deep learning and physical systems, especially identifying nonlinear dynamics with machine learning, with interests in geometric explainable AI, neural manifold interpretability, and human-aligned model representations. Before NUS, she was a PhD researcher at Imperial College London and worked as a Mechanical Engineer at NVIDIA."
     
     - name: "Chenyu DONG"
       role: "PhD Student"
-      image: "/images/people/chenyu.png"
+      image: "/images/people/New/Chenyu.png"
       bio: "Chenyu Dong is a Ph.D. candidate at the National University of Singapore (NUS), supervised by Prof. Gianmarco Mengaldo. His research focuses on the dynamics and predictability of extreme events in the climate system, especially the interaction between large-scale atmospheric circulation patterns and regional climate extremes, combining dynamical systems theory with AI-based approaches for regional weather forecasting and model explainability to improve predictive skill and physical interpretability in weather and climate applications"
 
     - name: "Emma ANDREWS"
       role: "PhD Student"
-      image: "/images/people/emma.png"
+      image: "/images/people/New/Emma.png"
       bio: "Emma Andrews is a PhD student in MathExLab at the National University of Singapore, supervised by Prof. Gianmarco Mengaldo. Her research focuses on measuring and developing more explainable AI for high-stakes domains, with a particular interest in applying XAI to natural language processing and time-series in order to build explainable forecasting models for AI4Science, climate, and geopolitics."
 
     - name: "Ethan ZHAN"
       role: "PhD Student"
-      image: "/images/people/ethan.png"
+      image: "/images/people/New/Ethan.png"
       bio: "ZHAN Wang, Ethan is a second-year Ph.D. student at the National University of Singapore (NUS). His current research interest focuses on understanding uncertainty in weather ensemble forecasts using dynamical system approaches."
 
     - name: "Jiawen WEI"
       role: "PhD Student"
-      image: "/images/people/jiawen.png"
+      image: "/images/people/New/Jiawen.png"
       bio: "Jiawen Wei is a PhD student in the Department of Mechanical Engineering at National University of Singapore, advised by Prof. Gianmarco Mengaldo. Her current research interests include explainable AI and its evaluation, particularly the robustness of feature attribution methods, adversarial machine learning guided by sample importance interpretation, foundation models for time series, and explainable AI methods for scientific domains with a focus on extreme events."
 
     - name: "Keane ONG"
       role: "PhD Student"
-      image: "/images/people/keane.png"
+      image: "/images/people/New/Keane.png"
       bio: "Keane Ong is a PhD candidate at the National University of Singapore, advised by Gianmarco Mengaldo (NUS), Erik Cambria (NTU), and Paul Liang (MIT). His research focuses on socially intelligent AI: systems that can understand, reason about, and respond to human behaviors, intentions, and social signals in a grounded and explainable manner. He works on benchmarks, learning methods, and multimodal foundation models, and studies climate and finance as real-world test beds for narrative understanding and strategic communication."
 
     - name: "Leonardo PESCE"
       role: "PhD Student"
-      image: "/images/people/leo.png"
+      image: "/images/people/New/Leo.png"
       bio: "Leonardo Pesce is a PhD student in the Department of Mechanical Engineering at the National University of Singapore, advised by Prof. Gianmarco Mengaldo. His research focuses on explainable artificial intelligence, especially methods for extracting human-aligned explanations and using them to improve the performance, accuracy, and robustness of machine learning models across domains such as LLMs, foundation models, reinforcement learning, climate, weather forecasting, and robotics."
 
-    - name: "Vishal SRIVASTAVA"
-      role: "PhD Student"
-      image: "/images/people/vishal.png"
-      bio: ""
+    # - name: "Vishal SRIVASTAVA"
+    #   role: "PhD Student"
+    #   image: "/images/people/vishal.png"
+    #   bio: ""
 
     - name: "Yuxuan YANG"
       role: "PhD Student"
-      image: "/images/people/yuxuan.png"
-      bio: ""
+      image: "/images/people/New/Yuxan.png"
+      bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
 
     - name: "Zhou FANG"
       role: "PhD Student"
-      image: "/images/people/zhou.png"
+      image: "/images/people/New/Zhou.png"
       bio: "Zhou FANG is a Ph.D. candidate at the National University of Singapore (NUS), supervised by Prof. Gianmarco Mengaldo. Her research lies at the intersection of dynamical systems theory and machine learning, with a focus on scientific machine learning for modeling and forecasting complex dynamical systems. She studies how dynamical systems principles can be used to evaluate, interpret, and improve machine learning models, especially for predictive modeling in scientific domains, with climate science as a primary application area within AI for Science."
 
   - id: "collaborators"
