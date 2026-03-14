@@ -11,7 +11,7 @@ featured_image_6: "/images/Gallery/6.JPG"
 featured_image_class: "cover bg-center"
 menu:
   main:
-    weight: 6
+    weight: 7
 
 gallery_images:
   - src: "/images/Gallery/1.png"

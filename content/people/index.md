@@ -141,8 +141,6 @@ sections:
         scholar: "https://scholar.google.com/citations?hl=en&user=9Z5tCDIAAAAJ"
         researchgate: "https://www.researchgate.net/scientific-contributions/Yuxuan-Yang-2306650955"
       bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
-      image: "/images/people/New/Yuxan.png"
-      bio: "Yuxuan Yang is a Ph.D. student in the Department of Mechanical Engineering at the National University of Singapore. He previously obtained his MSc in Aerospace Engineering from Delft University of Technology (the Netherlands), where he specialized in aerodynamics. His current research focuses on data-driven approaches for complex fluid systems, particularly turbulent flows. He is especially interested in leveraging machine learning and probabilistic modeling to study the predictability of extreme events and uncover the physical structures that govern their forecastability."
 
     - name: "Zhou FANG"
       role: "PhD Student"
