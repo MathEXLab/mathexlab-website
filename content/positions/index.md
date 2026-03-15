@@ -2,7 +2,7 @@
 title: "Positions"
 layout: "positions"
 description: "Join Us"
-featured_image: '/images/Victor_Hugo-Hunchback.jpg'
+featured_image: '/images/positions/careers.001.png'
 menu:
   main:
     weight: 6

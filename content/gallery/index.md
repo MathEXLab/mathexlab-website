@@ -8,6 +8,10 @@ featured_image_3: "/images/Gallery/3.png"
 featured_image_4: "/images/Gallery/4.png"
 featured_image_5: "/images/Gallery/5.JPG"
 featured_image_6: "/images/Gallery/6.JPG"
+featured_image_7: "/images/Gallery/7.png"
+featured_image_8: "/images/Gallery/8.png"
+featured_image_9: "/images/Gallery/9.png"
+featured_image_10: "/images/Gallery/10.png"
 featured_image_class: "cover bg-center"
 menu:
   main:
@@ -20,4 +24,8 @@ gallery_images:
   - src: "/images/Gallery/4.png"
   - src: "/images/Gallery/5.JPG"
   - src: "/images/Gallery/6.JPG"
+  - src: "/images/Gallery/7.png"
+  - src: "/images/Gallery/8.png"
+  - src: "/images/Gallery/9.png"
+  - src: "/images/Gallery/10.png" 
 ---
