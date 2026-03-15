@@ -358,6 +358,42 @@
   100%     { opacity: 0; }
 }
 
+/* 12-image cycle (gallery) */
+.header-image-layer--cycle12-1,
+.header-image-layer--cycle12-2,
+.header-image-layer--cycle12-3,
+.header-image-layer--cycle12-4,
+.header-image-layer--cycle12-5,
+.header-image-layer--cycle12-6,
+.header-image-layer--cycle12-7,
+.header-image-layer--cycle12-8,
+.header-image-layer--cycle12-9,
+.header-image-layer--cycle12-10,
+.header-image-layer--cycle12-11,
+.header-image-layer--cycle12-12 {
+  animation: header-crossfade-12 36s ease-in-out infinite;
+  opacity: 0;
+}
+.header-image-layer--cycle12-2  { animation-delay: 3s; }
+.header-image-layer--cycle12-3  { animation-delay: 6s; }
+.header-image-layer--cycle12-4  { animation-delay: 9s; }
+.header-image-layer--cycle12-5  { animation-delay: 12s; }
+.header-image-layer--cycle12-6  { animation-delay: 15s; }
+.header-image-layer--cycle12-7  { animation-delay: 18s; }
+.header-image-layer--cycle12-8  { animation-delay: 21s; }
+.header-image-layer--cycle12-9  { animation-delay: 24s; }
+.header-image-layer--cycle12-10 { animation-delay: 27s; }
+.header-image-layer--cycle12-11 { animation-delay: 30s; }
+.header-image-layer--cycle12-12 { animation-delay: 33s; }
+
+@keyframes header-crossfade-12 {
+  0%    { opacity: 0; }
+  1.4%  { opacity: 1; }
+  6.9%  { opacity: 1; }
+  8.3%  { opacity: 0; }
+  100%  { opacity: 0; }
+}
+
 /* 6-image cycle (gallery) */
 .header-image-layer--cycle6-1,
 .header-image-layer--cycle6-2,
