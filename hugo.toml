@@ -10,7 +10,7 @@ unsafe = true
 text_color = ""
 author = ""
 favicon = ""
-site_logo = "no_fill.011_side.png"
+site_logo = "logo_white.001.png"
 description = "Mathematical and Computational Lab for Complex Systems"
 custom_css = ["css/custom.css"]
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
