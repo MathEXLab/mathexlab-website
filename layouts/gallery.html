@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<main class="page-shell">
+
+  {{ with .Params.intro }}
+    <p class="section-intro">{{ . }}</p>
+  {{ end }}
+
+  <div class="gallery-grid">
+    {{ range .Params.gallery_images }}
+      <div class="gallery-item">
+        <img src="{{ .src }}" alt="">
+      </div>
+    {{ end }}
+  </div>
+
+</main>
+
+{{ end }}

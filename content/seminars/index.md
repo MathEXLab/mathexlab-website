@@ -1,7 +1,10 @@
 ---
 title: "Seminars"
 description: "MathExLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community."
-featured_image: "/images/seminars/feature.jpeg"
+featured_image: "/images/seminars/1.png"
+featured_image_2: "/images/seminars/2.png"
+featured_image_3: "/images/seminars/3.png"
+
 layout: "seminars"
 menu:
   main:
@@ -82,4 +85,63 @@ sections:
           - heading: "Abstract"
             content:
               - "He also discussed how deep reinforcement learning can outperform classical active flow-control strategies across several turbulent configurations, highlighting the promise of AI-guided control for drag reduction."
+      - id: "turbe-2025-04-21"
+        title: "Building Trust in AI for Healthcare Applications"
+        poster: "/images/seminars/turbe-2025-04-21.png"
+        summary: "Hugues Turbe discussed what it takes to build trust in AI systems for healthcare, with emphasis on high-quality clinically relevant data and rigorous explainability methods. The seminar connected interpretable modelling and evaluation frameworks to concrete clinical applications, including time-series decision support and automated ECG analysis."
+        description:
+          - heading: "Seminar Details"
+            content:
+              - "**Speaker:** Hugues Turbe"
+              - "**Date:** Tuesday, 21 April 2025"
+              - "**Time:** 3:00 pm to 6:00 pm (SGT)"
+              - "**Location:** NUS E4-05-39"
+
+      - id: "guastoni-2025-04-21"
+        title: "Deep Reinforcement Learning and Its Applications for the Control of Wall-Bounded Turbulent Flows"
+        poster: "/images/seminars/guastoni-2025-04-21.png"
+        summary: "This talk explored how deep reinforcement learning can be used to control turbulent flows in engineering settings where traditional control strategies struggle. It showed how explainable deep learning can identify the flow features that matter most for drag reduction, and it also presented theoretical insights into why temporal-difference learning can be both fast and effective in reinforcement learning for complex fluid systems."
+        description:
+          - heading: "Seminar Details"
+            content:
+              - "**Speaker:** Dr Luca Guastoni"
+              - "**Date:** Tuesday, 21 April 2025"
+              - "**Time:** 3:00 pm to 6:00 pm (SGT)"
+              - "**Location:** NUS E4-05-39"
+
+      - id: "duben-2025-04-17"
+        title: "The Digital Revolution of Weather and Climate Prediction"
+        poster: "/images/seminars/duben-2025-04-17.png"
+        summary: "This seminar traced three major shifts in Earth system modelling: steady improvements from better observations and compute, the move to kilometre-scale simulation on modern supercomputers, and the emergence of machine-learned weather models. The talk also discussed current challenges and the growing role of foundation models in physically grounded weather and climate prediction."
+        description:
+          - heading: "Seminar Details"
+            content:
+              - "**Speaker:** Dr Peter Duben"
+              - "**Date:** Thursday, 17 April 2025"
+              - "**Time:** 6:00 pm to 7:00 pm (SGT)"
+              - "**Format:** Webinar"
+
+      - id: "sherwin-2025-01-28"
+        title: "Advancing Spectral/hp Element High Fidelity Simulation of Incompressible and Compressible Flows"
+        poster: "/images/seminars/sherwin-2025-01-28.png"
+        summary: "Prof Sherwin presented modern high-order spectral/hp element methods for incompressible and compressible flow simulation, including Galerkin, discontinuous Galerkin, and flux reconstruction formulations. The talk focused on why these methods are attractive for complex geometries and turbulent boundary-layer problems that require both geometric flexibility and high numerical accuracy in demanding engineering applications."
+        description:
+          - heading: "Seminar Details"
+            content:
+              - "**Speaker:** Prof Spencer J. Sherwin"
+              - "**Date:** Tuesday, 28 January 2025"
+              - "**Time:** 5:30 pm to 6:30 pm (SGT)"
+              - "**Format:** Virtual Webinar"
+
+      - id: "longo-2025-01-20"
+        title: "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions"
+        poster: "/images/seminars/longo-2025-01-20.png"
+        summary: "This seminar examined the current state of explainable AI and argued for a broader, more interdisciplinary research agenda. It highlighted key practical and ethical challenges in understanding black-box systems, introduced a manifesto of 28 open problems across nine categories, and outlined research directions for moving XAI toward more reliable real-world deployment."
+        description:
+          - heading: "Seminar Details"
+            content:
+              - "**Speaker:** Dr Luca Longo"
+              - "**Date:** Monday, 20 January 2025"
+              - "**Time:** 10:30 am to 11:30 am (SGT)"
+              - "**Location:** NUS EA 07-03"
 ---

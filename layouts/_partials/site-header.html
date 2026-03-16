@@ -1,11 +1,49 @@
 {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
-{{ $title_weight := compare.Conditional .IsHome "fw7" "fw2" }}
+{{ $title_weight := compare.Conditional .IsHome "fw7" "fw7" }}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image_class := site.Params.featured_image_class | compare.Default "cover bg-top" }}
-  <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}');">
+  {{ $featured_image_2 := .Params.featured_image_2 }}
+  {{ $featured_image_3 := .Params.featured_image_3 }}
+  {{ $featured_image_4 := .Params.featured_image_4 }}
+  {{ $featured_image_5 := .Params.featured_image_5 }}
+  {{ $featured_image_6 := .Params.featured_image_6 }}
+  {{ $featured_image_7 := .Params.featured_image_7 }}
+  {{ $featured_image_8 := .Params.featured_image_8 }}
+  {{ $featured_image_9 := .Params.featured_image_9 }}
+  {{ $featured_image_10 := .Params.featured_image_10 }}
+  {{ $featured_image_11 := .Params.featured_image_11 }}
+  {{ $featured_image_12 := .Params.featured_image_12 }}
+  <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}'); position: relative;">
+    {{ if $featured_image_12 }}
+      <div class="header-image-layer header-image-layer--cycle12-1"  style="background-image: url('{{ $featured_image }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-2"  style="background-image: url('{{ $featured_image_2 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-3"  style="background-image: url('{{ $featured_image_3 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-4"  style="background-image: url('{{ $featured_image_4 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-5"  style="background-image: url('{{ $featured_image_5 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-6"  style="background-image: url('{{ $featured_image_6 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-7"  style="background-image: url('{{ $featured_image_7 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-8"  style="background-image: url('{{ $featured_image_8 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-9"  style="background-image: url('{{ $featured_image_9 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-10" style="background-image: url('{{ $featured_image_10 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-11" style="background-image: url('{{ $featured_image_11 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle12-12" style="background-image: url('{{ $featured_image_12 }}');"></div>
+    {{ else if $featured_image_6 }}
+      <div class="header-image-layer header-image-layer--cycle6-1" style="background-image: url('{{ $featured_image }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle6-2" style="background-image: url('{{ $featured_image_2 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle6-3" style="background-image: url('{{ $featured_image_3 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle6-4" style="background-image: url('{{ $featured_image_4 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle6-5" style="background-image: url('{{ $featured_image_5 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle6-6" style="background-image: url('{{ $featured_image_6 }}');"></div>
+    {{ else if $featured_image_3 }}
+      <div class="header-image-layer header-image-layer--cycle-1" style="background-image: url('{{ $featured_image }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle-2" style="background-image: url('{{ $featured_image_2 }}');"></div>
+      <div class="header-image-layer header-image-layer--cycle-3" style="background-image: url('{{ $featured_image_3 }}');"></div>
+    {{ else if $featured_image_2 }}
+      <div class="header-image-layer header-image-layer--2" style="background-image: url('{{ $featured_image_2 }}');"></div>
+    {{ end }}
     {{ $cover_dimming_class := site.Params.cover_dimming_class | compare.Default "bg-black-60" }}
-    <div class="{{ $cover_dimming_class }}">
+    <div class="{{ $cover_dimming_class }}"{{ if or $featured_image_2 $featured_image_3 $featured_image_6 $featured_image_12 }} style="position: relative; z-index: 2;"{{ end }}>
       {{ partials.Include "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l {{ $title_weight }} white-90 mb0 lh-title">
