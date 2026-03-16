@@ -21,3 +21,7 @@ mainSections = ["positions", "research-highlights", "seminars"]
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/company/mathexlab"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
