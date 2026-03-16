@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://www.mathexlab.com/"
 languageCode = 'en-us'
 title = 'MathExLab'
 theme = 'ananke'
@@ -22,3 +22,7 @@ mainSections = ["positions", "research-highlights", "seminars"]
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/company/mathexlab"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

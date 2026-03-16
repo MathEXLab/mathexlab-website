@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Mengaldo's MathEXLab"
 
-description: "Mathematical and Computational Lab for Complex Systems"
+description: "Mathematical Engineering and Explainable AI Laboratory"
 main_sections:
   - positions
   - publications

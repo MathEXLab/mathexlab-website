@@ -41,11 +41,6 @@
       "url": "https://ieeexplore.ieee.org/abstract/document/10917790/"
     },
     {
-      "title": "Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation",
-      "year": "2025",
-      "cited_by": 3
-    },
-    {
       "title": "ClimaEmpact: domain-aligned small language models and datasets for extreme weather analytics",
       "authors": "Deeksha Varshney and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2504.19066",
@@ -216,13 +211,6 @@
       "venue": "Available at SSRN 5717653",
       "cited_by": 0,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
-    },
-    {
-      "title": "Cluster-Based Reduced-Order Modelling and Control for Chaotic Systems with Extreme Events",
-      "authors": "Yuxuan Yang and Nguyen Anh Khoa Doan",
-      "year": 2025,
-      "cited_by": 0,
-      "url": "https://link.springer.com/chapter/10.1007/978-3-031-97567-7_1"
     }
   ]
 }
