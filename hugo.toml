@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://MathEXLab.github.io/mathexlab-website/"
 languageCode = 'en-us'
 title = 'MathExLab'
 theme = 'ananke'
