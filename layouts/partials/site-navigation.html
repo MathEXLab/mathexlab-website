@@ -1,0 +1,47 @@
+<nav class="site-nav">
+  <div class="site-nav__desktop">
+    <div class="page-shell site-nav__inner">
+      <a href="{{ "/" | relURL }}" class="site-nav__brand">
+        {{ with site.Params.site_logo }}
+          <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="site-nav__logo">
+        {{ else }}
+          <span class="site-nav__title">{{ site.Title }}</span>
+        {{ end }}
+      </a>
+
+      <ul class="site-nav__links">
+        {{ range site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+
+  <div class="site-nav__mobile">
+    <div class="page-shell site-nav__mobile-bar">
+      <a href="{{ "/" | relURL }}" class="site-nav__brand">
+        {{ with site.Params.site_logo }}
+          <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="site-nav__logo">
+        {{ else }}
+          <span class="site-nav__title">{{ site.Title }}</span>
+        {{ end }}
+      </a>
+
+      <details class="site-nav__drawer">
+        <summary class="site-nav__toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </summary>
+
+        <div class="site-nav__drawer-panel">
+          <ul class="site-nav__drawer-links">
+            {{ range site.Menus.main }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+</nav>

@@ -1,6 +1,6 @@
 ---
 title: "Gallery"
-description: "A glimpse into life at MathExLab."
+description: "A glimpse into life at MathEXLab"
 layout: "gallery"
 featured_image: "/images/Gallery/1.png"
 featured_image_2: "/images/Gallery/2.png"

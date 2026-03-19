@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: "publications"
-description: "Publications from MathEXLab."
+description: "Publications from MathEXLab"
 menu:
   main:
     weight: 4
@@ -31,7 +31,7 @@ sections:
         title: "Time-lagged recurrence: A data-driven method to estimate the predictability of dynamical systems"
         featured: true
         poster: "/images/projects/tlr.png"
-        summary: "This work contributes to better understand the state-dependent predictability of complex dynamicalsystems across different disciplines, including physics and  engineering. This is an inderdisplinary project between MathExLab PhD student Chenyu Dong and collaborators: Davide Faranda (CNRS), Adriano Gualandi (University of Cambridge), and Valerio Lucarini (University of Leicester)!"
+        summary: "This work contributes to better understand the state-dependent predictability of complex dynamicalsystems across different disciplines, including physics and  engineering. This is an inderdisplinary project between MathEXLab PhD student Chenyu Dong and collaborators: Davide Faranda (CNRS), Adriano Gualandi (University of Cambridge), and Valerio Lucarini (University of Leicester)!"
         link: "https://www.pnas.org/doi/10.1073/pnas.2420252122"
 
 ---

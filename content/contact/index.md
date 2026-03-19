@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in Touch."
+description: "Get in Touch"
 layout: "contact"
 
 menu:
