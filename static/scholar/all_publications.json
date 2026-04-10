@@ -4,8 +4,289 @@
   "updated": "2026-03-06",
   "publications": [
     {
+      "title": "Language models for environmental, social, and governance analysis: A review",
+      "authors": "Kelvin Du, Rui Mao, Frank Xing, Gianmarco Mengaldo, Erik Cambria",
+      "venue": "Information Processing & Management",
+      "year": 2026,
+      "cited_by": 2,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306457325005370"
+    },
+    {
+      "title": "A hybrid two-level MCMC framework to accelerate posterior mean estimation with deep learning surrogates for bayesian inverse problems",
+      "authors": "Juntao Yang, Jeff Adie, Simon See, Adriano Gualandi, Gianmarco Mengaldo",
+      "venue": "Journal of Computational Physics",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999125007843"
+    },
+    {
+      "title": "Explainable AI: Learning from the Learners",
+      "authors": "Ricardo Vinuesa, Steven L Brunton, Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2601.05525",
+      "year": 2026,
+      "cited_by": 1,
+      "url": "https://arxiv.org/abs/2601.05525"
+    },
+    {
+      "title": "Intelligence is Physical: Energy, Information, & a Thermodynamically Grounded Theory of Minds & Machines",
+      "authors": "Melvin Chen, Erik Cambria, Cecilia Laschi, Gianmarco Mengaldo",
+      "year": 2025,
+      "cited_by": 0,
+      "url": "https://philsci-archive.pitt.edu/id/eprint/27741"
+    },
+    {
+      "title": "AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions",
+      "authors": "Stephen G Dale, Nikita Kazeev, Alastair JA Price, Victor Posligua, Stephan Roche, O Anatole von Lilienfeld, Konstantin S Novoselov, Xavier Bresson, Gianmarco Mengaldo, Xudong Chen, Terence J O'Kane, Emily R Lines, Matthew J Allen, Amandine E Debus, Clayton Miller, Jiayu Zhou, Hiroko H Dodge, David Rousseau, Andrey Ustyuzhanin, Ziyun Yan, Mario Lanza, Fabio Sciarrino, Ryo Yoshida, Zhidong Leong, Teck Leong Tan, Qianxiao Li, Adil Kabylda, Igor Poltavsky, Alexandre Tkatchenko, Sherif Abdulkader Tawfik, Prathami Divakar Kamath, Theo Jaffrelot Inizan, Kristin A Persson, Bryant Y Li, Vir Karan, Chenru Duan, Haojun Jia, Qiyuan Zhao, Hiroyuki Hayashi, Atsuto Seko, Isao Tanaka, Omar M Yaghi, Tim Gould, Bun Chan, Stefan Vuckovic, Tianbo Li, Min Lin, Zehcen Tang, Yang Li, Yong Xu, Amrita Joshi, Xiaonan Wang, Leonard WT Ng, Sergei V Kalinin, Mahshid Ahmadi, Jiyizhe Zhang, Shuyuan Zhang, Alexei Lapkin, Ming Xiao, Zhe Wu, Kedar Hippalgaonkar, Limsoon Wong, Lorenzo Bastonero, Nicola Marzari, Dorye Luis Esteras Cordoba, Andrei Tomut, Alba Quinones Andrade, Jose-Hugo Garcia",
+      "venue": "arXiv preprint arXiv:2511.20976",
+      "year": 2025,
+      "cited_by": 1,
+      "url": "https://arxiv.org/abs/2511.20976"
+    },
+    {
+      "title": "AI reshaping financial modeling",
+      "authors": "Frank Xing, Kelvin Du, Gianmarco Mengaldo, Erik Cambria, Roy Welsch",
+      "venue": "npj Artificial Intelligence",
+      "year": 2025,
+      "cited_by": 3,
+      "url": "https://www.nature.com/articles/s44387-025-00030-w"
+    },
+    {
+      "title": "A comprehensive review on financial explainable AI",
+      "authors": "Wei Jie Yeo, Wihan Van Der Heever, Rui Mao, Erik Cambria, Ranjan Satapathy, Gianmarco Mengaldo",
+      "venue": "Artificial Intelligence Review",
+      "year": 2025,
+      "cited_by": 138,
+      "url": "https://link.springer.com/article/10.1007/s10462-024-11077-7"
+    },
+    {
+      "title": "Tell me why: Visual foundation models as self-explainable classifiers",
+      "authors": "Hugues Turbé, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
+      "venue": "arXiv preprint arXiv:2502.19577",
+      "year": 2025,
+      "cited_by": 3,
+      "url": "https://arxiv.org/abs/2502.19577"
+    },
+
+    {
+      "title": "The Curious Case Of A NACA 0012 Airfoil: Are We Learning Something New?",
+      "authors": "Rasha Al Jahdali, Lisandro Dalcin, Gianmarco Mengaldo, Matteo Parsani",
+      "venue": "12th International Conference on Fluid Flow, Heat and Mass Transfer, FFHMT 2025",
+      "year": 2025,
+      "cited_by": 0
+    },
+    {
+      "title": "AI Adoption Phases in Business Intelligence: From Outsourcing to Human-Centered Systems",
+      "authors": "Erik Cambria, Rui Mao, Frank Xing, Gianmarco Mengaldo",
+      "venue": "Proceedings of IEEE SSCI",
+      "year": 2025,
+      "cited_by": 2,
+      "url": "https://ewww.sentic.net/ai-adoption-phases-in-business-intelligence.pdf"
+    },
+    {
+      "title": "Unlocking massively parallel spectral proper orthogonal decompositions in the PySPOD package",
+      "authors": "Marcin Rogowski, Brandon CY Yeung, Oliver T Schmidt, Romit Maulik, Lisandro Dalcin, Matteo Parsani, Gianmarco Mengaldo",
+      "venue": "Computer Physics Communications",
+      "year": 2024,
+      "cited_by": 17,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0010465524001693"
+    },
+    {
+      "title": "Understanding Public Perception Towards Weather Disasters Through the Lens of Metaphor.",
+      "authors": "Rui Mao, Qika Lin, Qiawen Liu, Gianmarco Mengaldo, Erik Cambria",
+      "venue": "IJCAI",
+      "year": 2024,
+      "cited_by": 31,
+      "url": "https://sentic.net/public-perception-towards-weather-disasters.pdf"
+    },
+    {
+      "title": "ClimaMeter: contextualizing extreme weather in a changing climate",
+      "authors": "Davide Faranda, Gabriele Messori, Erika Coppola, Tommaso Alberti, Mathieu Vrac, Flavio Pons, Pascal Yiou, Marion Saint Lu, Andreia NS Hisi, Patrick Brockmann, Stavros Dafis, Gianmarco Mengaldo, Robert Vautard",
+      "venue": "Weather and Climate Dynamics",
+      "year": 2024,
+      "cited_by": 50,
+      "url": "https://wcd.copernicus.org/articles/5/959/2024/wcd-5-959-2024.html"
+    },
+    {
+      "title": "Similarities and Differences Between Natural and Simulated Slow Earthquakes",
+      "authors": "Adriano Gualandi, Luca Dal Zilio, Davide Faranda, Gianmarco Mengaldo",
+      "venue": "Geophysical Research Letters",
+      "year": 2024,
+      "cited_by": 5,
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024GL109845"
+    },
+    {
+      "title": "Neurosymbolic AI for mining public opinions about wildfires",
+      "authors": "Cuc Duong, Vethavikashini Chithrra Raghuram, Amos Lee, Rui Mao, Gianmarco Mengaldo, Erik Cambria",
+      "venue": "Cognitive Computation",
+      "year": 2024,
+      "cited_by": 19,
+      "url": "https://link.springer.com/article/10.1007/s12559-023-10195-8"
+    },
+    {
+      "title": "Non-intrusive reduced order models for the accurate prediction of bifurcating phenomena in compressible fluid dynamics",
+      "authors": "Niccolò Tonicello, Andrea Lario, Gianluigi Rozza, Gianmarco Mengaldo",
+      "venue": "Computers & Fluids",
+      "year": 2024,
+      "cited_by": 11,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045793024001397"
+    },
+    {
+      "title": "Explain the Black Box for the Sake of Science: the Scientific Method in the Era of Generative Artificial Intelligence",
+      "authors": "Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2406.10557",
+      "year": 2024,
+      "cited_by": 22,
+      "url": "https://arxiv.org/abs/2406.10557"
+    },
+    {
+      "title": "ProtoS-ViT: Visual foundation models for sparse self-explainable classifications",
+      "authors": "Hugues Turbé, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
+      "venue": "arXiv preprint arXiv:2406.10025",
+      "year": 2024,
+      "cited_by": 13,
+      "url": "https://arxiv.org/abs/2406.10025"
+    },
+    {
+      "title": "Artificial muscles for underwater soft robots: materials and their interactions",
+      "authors": "Yu Jun Tan, Gianmarco Mengaldo, Cecilia Laschi",
+      "venue": "Annual Review of Condensed Matter Physics",
+      "year": 2024,
+      "cited_by": 14,
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-032822-041146"
+    },
+    {
+      "title": "Fully-discrete spatial eigenanalysis of discontinuous spectral element methods: Insights into well-resolved and under-resolved vortical flows",
+      "authors": "Niccolò Tonicello, Rodrigo C Moura, Guido Lodato, Gianmarco Mengaldo",
+      "venue": "Computers & Fluids",
+      "year": 2023,
+      "cited_by": 9,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045793023002852"
+    },
+    {
+      "title": "Online data-driven changepoint detection for high-dimensional dynamical systems",
+      "authors": "Sen Lin, Gianmarco Mengaldo, Romit Maulik",
+      "venue": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
+      "year": 2023,
+      "cited_by": 8,
+      "url": "https://pubs.aip.org/aip/cha/article/33/10/103112/2916125"
+    },
+    {
+      "title": "Evaluation of post-hoc interpretability methods in time-series classification",
+      "authors": "Hugues Turbé, Mina Bjelogrlic, Christian Lovis, Gianmarco Mengaldo",
+      "venue": "Nature Machine Intelligence",
+      "year": 2023,
+      "cited_by": 170,
+      "url": "https://www.nature.com/articles/s42256-023-00620-w"
+    },
+    {
+      "title": "Deterministic and stochastic chaos characterize laboratory earthquakes",
+      "authors": "Adriano Gualandi, Davide Faranda, Chris Marone, Massimo Cocco, Gianmarco Mengaldo",
+      "venue": "Earth and Planetary Science Letters",
+      "year": 2023,
+      "cited_by": 26,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0012821X23000080"
+    },
+    {
+      "title": "Spectral/hp element methods' linear mechanism of (apparent) energy transfer in Fourier space: Insights into dispersion analysis for implicit LES",
+      "authors": "Rodrigo Costa Moura, Lucas Dantas Fernandes, AFC Silva, Gianmarco Mengaldo, Spencer J Sherwin",
+      "venue": "Journal of Computational Physics",
+      "year": 2022,
+      "cited_by": 8,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999122006763"
+    },
+    {
+      "title": "Reduced order modeling for spectral element methods: current developments in Nektar++ and further perspectives",
+      "authors": "Martin W Hess, Andrea Lario, Gianmarco Mengaldo, Gianluigi Rozza",
+      "venue": "Spectral and High Order Methods for Partial Differential Equations ICOSAHOM 2020+ 1: Selected Papers from the ICOSAHOM Conference, Vienna, Austria, July 12-16, 2021",
+      "year": 2022,
+      "cited_by": 2,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-20432-6_23"
+    },
+    {
+      "title": "Neural-network learning of SPOD latent dynamics",
+      "authors": "Andrea Lario, Romit Maulik, Oliver T Schmidt, Gianluigi Rozza, Gianmarco Mengaldo",
+      "venue": "Journal of Computational Physics",
+      "year": 2022,
+      "cited_by": 36,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S002199912200537X"
+    },
+    {
+      "title": "A concise guide to modelling the physics of embodied intelligence in soft robotics",
+      "authors": "Gianmarco Mengaldo, Federico Renda, Steven L Brunton, Moritz Bächer, Marcello Calisti, Christian Duriez, Gregory S Chirikjian, Cecilia Laschi",
+      "venue": "Nature Reviews Physics",
+      "year": 2022,
+      "cited_by": 187,
+      "url": "https://www.nature.com/articles/s42254-022-00481-z"
+    },
+    {
+      "title": "Efficient high-dimensional variational data assimilation with machine-learned reduced-order models",
+      "authors": "Romit Maulik, Vishwas Rao, Jiali Wang, Gianmarco Mengaldo, Emil Constantinescu, Bethany Lusch, Prasanna Balaprakash, Ian Foster, Rao Kotamarthi",
+      "venue": "Geoscientific Model Development",
+      "year": 2022,
+      "cited_by": 54,
+      "url": "https://gmd.copernicus.org/articles/15/3433/2022/gmd-15-3433-2022.html"
+    },
+    {
+      "title": "PyParSVD: A streaming, distributed and randomized singular-value-decomposition library",
+      "authors": "Romit Maulik, Gianmarco Mengaldo",
+      "venue": "2021 7th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD-7)",
+      "year": 2021,
+      "cited_by": 23,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9652583/"
+    },
+    {
+      "title": "Industry-Relevant Implicit Large-Eddy Simulation of a High-Performance Road Car via Spectral/hp Element Methods",
+      "authors": "Gianmarco Mengaldo, David Moxey, Michael Turner, Rodrigo Costa Moura, Ayad Jassim, Mark Taylor, Joaquim Peiró, Spencer J Sherwin",
+      "venue": "SIAM Review",
+      "year": 2021,
+      "cited_by": 52,
+      "url": "https://epubs.siam.org/doi/abs/10.1137/20M1345359"
+    },
+    {
+      "title": "PySPOD: a python package for spectral proper orthogonal decomposition (SPOD)",
+      "authors": "Gianmarco Mengaldo, Romit Maulik",
+      "venue": "arXiv preprint arXiv:2603.13789",
+      "year": 2021,
+      "cited_by": 44,
+      "url": "https://joss.theoj.org/papers/10.21105/joss.02862.pdf"
+    },
+
+    {
+      "title": "Viscous diffusion effects in the eigenanalysis of (hybridisable) DG methods",
+      "authors": "Rodrigo C Moura, Pablo Fernandez, Gianmarco Mengaldo, Spencer J Sherwin",
+      "venue": "Spectral and High Order Methods for Partial Differential Equations ICOSAHOM 2018: Selected Papers from the ICOSAHOM Conference, London, UK, July 9-13, 2018",
+      "year": 2020,
+      "cited_by": 8,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-39647-3_29"
+    },
+    {
+      "title": "A fast multi-resolution lattice Green's function method for elliptic difference equations",
+      "authors": "Benedikt Dorschner, Ke Yu, Gianmarco Mengaldo, Tim Colonius",
+      "venue": "Journal of Computational Physics",
+      "year": 2020,
+      "cited_by": 15,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999120300449"
+    },
+    {
+      "title": "Nektar++: Enhancing the capability and application of high-fidelity spectral/hp element methods",
+      "authors": "David Moxey, Chris D Cantwell, Yan Bao, Andrea Cassinelli, Giacomo Castiglioni, Sehun Chun, Emilia Juda, Ehsan Kazemi, Kilian Lackhove, Julian Marcon, Gianmarco Mengaldo, Douglas Serson, Michael Turner, Hui Xu, Joaquim Peiró, Robert M Kirby, Spencer J Sherwin",
+      "venue": "Computer Physics Communications",
+      "year": 2020,
+      "cited_by": 180,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010465519304175"
+    },
+
+    {
+      "title": "Hierarchy of extreme-event predictability in turbulence revealed by machine learning",
+      "authors": "Yuxuan Yang, Chenyu Dong, Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2603.13789",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2603.13789"
+    },
+    {
       "title": "Explainable Natural Language Processing for Corporate Sustainability Analysis",
-      "authors": "Keane Ong and Rui Mao and Ranjan Satapathy and Erik Cambria and Johan Sulaeman and Gianmarco Mengaldo",
+      "authors": "Keane Ong, Rui Mao, Ranjan Satapathy, Erik Cambria, Johan Sulaeman, Gianmarco Mengaldo",
       "venue": "Information Fusion",
       "year": 2025,
       "cited_by": 35,
@@ -13,21 +294,23 @@
     },
     {
       "title": "FinXABSA: Explainable Finance through Aspect-Based Sentiment Analysis",
-      "authors": "Keane Ong and Wihan van der Heever and Ranjan Satapathy and Gianmarco Mengaldo and Erik Cambria",
+      "authors": "Keane Ong, Wihan van der Heever, Ranjan Satapathy, Gianmarco Mengaldo, Erik Cambria",
+      "venue": "IEEE International Conference on Data Mining Workshops (ICDMW)",
       "year": 2023,
       "cited_by": 23,
       "url": "https://ieeexplore.ieee.org/abstract/document/10411537/"
     },
     {
       "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
-      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Keane Ong, Rui Mao, Deeksha Varshney, Erik Cambria, Gianmarco Mengaldo",
+      "venue": "Association for Computational Linguistics",
       "year": 2025,
       "cited_by": 17,
       "url": "https://aclanthology.org/2025.acl-long.723/"
     },
     {
       "title": "ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis",
-      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Frank Xing and Ranjan Satapathy and Johan Sulaeman and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Keane Ong, Rui Mao, Deeksha Varshney, Frank Xing, Ranjan Satapathy, Johan Sulaeman, Erik Cambria, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2501.15720",
       "year": 2025,
       "cited_by": 8,
@@ -35,14 +318,15 @@
     },
     {
       "title": "Sentiment Analysis on Climate Change for Sustainable Investment",
-      "authors": "Keane Ong and Rui Mao and Deeksha Varshney and Ranjan Satapathy and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Keane Ong, Rui Mao, Deeksha Varshney, Ranjan Satapathy, Erik Cambria, Gianmarco Mengaldo",
+      "venue": "IEEE International Conference on Data Mining Workshops (ICDMW)",
       "year": 2024,
       "cited_by": 4,
       "url": "https://ieeexplore.ieee.org/abstract/document/10917790/"
     },
     {
       "title": "ClimaEmpact: domain-aligned small language models and datasets for extreme weather analytics",
-      "authors": "Deeksha Varshney and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Deeksha Varshney, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2504.19066",
       "year": 2025,
       "cited_by": 3,
@@ -50,14 +334,14 @@
     },
     {
       "title": "Human Behavior Atlas: Benchmarking Unified Psychological and Social Behavior Understanding",
-      "authors": "Keane Ong and Wei Dai and Carol Li and Dewei Feng and Hengzhi Li and Jingyao Wu and Jiaee Cheong and Rui Mao and Gianmarco Mengaldo and Erik Cambria and Paul Pu Liang",
+      "authors": "Keane Ong, Wei Dai, Carol Li, Dewei Feng, Hengzhi Li, Jingyao Wu, Jiaee Cheong, Rui Mao, Gianmarco Mengaldo, Erik Cambria, Paul Pu Liang",
       "year": 2026,
       "cited_by": 2,
       "url": "https://arxiv.org/abs/2510.04899"
     },
     {
       "title": "Leveraging LLMs for Top-Down Sector Allocation In Automated Trading",
-      "authors": "Ryan Quek Wei Heng and Edoardo Vittori and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo",
       "venue": "Proceedings of ICLR Workshops",
       "year": 2025,
       "cited_by": 1,
@@ -65,7 +349,7 @@
     },
     {
       "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
-      "authors": "Keane Ong and Sabri Boughorbel and Luwei Xiao and Chanakya Ekbote and Wei Dai and Ao Qu and Jingyao Wu and Rui Mao and Ehsan Hoque and Erik Cambria and Gianmarco Mengaldo and Paul Pu Liang",
+      "authors": "Keane Ong, Sabri Boughorbel, Luwei Xiao, Chanakya Ekbote, Wei Dai, Ao Qu, Jingyao Wu, Rui Mao, Ehsan Hoque, Erik Cambria, Gianmarco Mengaldo,  Paul Pu Liang",
       "venue": "arXiv preprint arXiv:2602.10635",
       "year": 2026,
       "cited_by": 0,
@@ -73,7 +357,7 @@
     },
     {
       "title": "Enhancing Language Models for Robust Greenwashing Detection",
-      "authors": "Neil Heinrich Braun and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo",
+      "authors": "Neil Heinrich Braun, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2601.21722",
       "year": 2026,
       "cited_by": 0,
@@ -81,7 +365,7 @@
     },
     {
       "title": "Indo-Pacific regional extremes aggravated by changes in tropical weather patterns",
-      "authors": "Chenyu Dong and Robin Noyelle and Gabriele Messori and Adriano Gualandi and Lucas Fery and Pascal Yiou and Mathieu Vrac and Fabio D\u2019andrea and Suzana J Camargo and Erika Coppola and Gianpaolo Balsamo and Chen Chen and Davide Faranda and Gianmarco Mengaldo",
+      "authors": "Chenyu Dong, Robin Noyelle, Gabriele Messori, Adriano Gualandi, Lucas Fery, Pascal Yiou, Mathieu Vrac, Fabio D\u2019andrea, Suzana J Camargo, Erika Coppola, Gianpaolo Balsamo, Chen Chen, Davide Faranda, Gianmarco Mengaldo",
       "venue": "Nature Geoscience",
       "year": 2024,
       "cited_by": 27,
@@ -89,7 +373,7 @@
     },
     {
       "title": "Time-lagged recurrence: A data-driven method to estimate the predictability of dynamical systems",
-      "authors": "Chenyu Dong and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "authors": "Chenyu Dong, Davide Faranda, Adriano Gualandi, Valerio Lucarini, Gianmarco Mengaldo",
       "venue": "Proceedings of the National Academy of Sciences",
       "year": 2025,
       "cited_by": 10,
@@ -97,28 +381,22 @@
     },
     {
       "title": "Spatio-temporal dynamical indices for complex systems",
-      "authors": "Chenyu Dong and Gabriele Messori and Davide Faranda and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "authors": "Chenyu Dong, Gabriele Messori, Davide Faranda, Adriano Gualandi, Valerio Lucarini, Gianmarco Mengaldo",
       "venue": "Chaos, Solitons & Fractals",
       "year": 2025,
       "cited_by": 5,
       "url": "https://www.sciencedirect.com/science/article/pii/S0960077925012615"
     },
     {
-      "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
-      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
-      "venue": "arXiv preprint arXiv:2503.08163",
-      "year": 2025,
-      "cited_by": 5,
-      "url": "https://arxiv.org/abs/2503.08163"
-    },
-    {
       "title": "El Ni\u00f1o and droughts in Southeast Asia: A stochastic-chaotic modeling approach",
+      "authors": "Davide Faranda, Yuzuru Sato, Chenyu Dong, Adriano Gualandi, Robin Noyelle, Tommaso Alberti, Berengere Dubrulle, Lucas Fery, Gabriele Messori, Mathieu Vrac, Pradeebane Vaittinada Ayar, Pascal Yiou, Gianmarco Mengaldo",
       "year": "2025",
+      "venue": "American Physical Society",
       "cited_by": 0
     },
     {
       "title": "Advancing the understanding of extreme events through the lens of dynamical system theory",
-      "authors": "Chenyu Dong and Adriano Gualandi and Valerio Lucarini and Gianmarco Mengaldo",
+      "authors": "Chenyu Dong, Adriano Gualandi, Valerio Lucarini, Gianmarco Mengaldo",
       "venue": "EGU General Assembly Conference Abstracts",
       "year": 2025,
       "cited_by": 0,
@@ -126,29 +404,22 @@
     },
     {
       "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
-      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
+      "authors": "Jiawen Wei, Aniruddha Bora, Vivek Oommen, Chenyu Dong, Juntao Yang, Jeff Adie, Chen Chen, Simon See, George Em Karniadakis, Gianmarco Mengaldo",
+      "venue": "ICLR 2025 Workshop on Tackling Climate Change with Machine Learning",
       "cited_by": 0,
-      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
-    },
-    {
-      "title": "OmniSapiens: A Foundation Model for Social Behavior Processing via Heterogeneity-Aware Relative Policy Optimization",
-      "authors": "Keane Ong and Sabri Boughorbel and Luwei Xiao and Chanakya Ekbote and Wei Dai and Ao Qu and Jingyao Wu and Rui Mao and Ehsan Hoque and Erik Cambria and Gianmarco Mengaldo and Paul Pu Liang",
-      "venue": "arXiv preprint arXiv:2602.10635",
-      "year": 2026,
-      "cited_by": 0,
-      "url": "https://arxiv.org/abs/2602.10635"
+      "url": "https://www.climatechange.ai/papers/iclr2025/35"
     },
     {
       "title": "Dynamical errors in machine learning forecasts",
-      "authors": "Zhou Fang and Gianmarco Mengaldo",
-      "venue": "arXiv preprint arXiv:2504.11074",
+      "authors": "Zhou Fang, Gianmarco Mengaldo",
+      "venue": "Chaos, Solitons & Fractals",
       "year": 2025,
       "cited_by": 0,
       "url": "https://www.sciencedirect.com/science/article/pii/S096007792501389X"
     },
     {
       "title": "Revisiting the robustness of post-hoc interpretability methods",
-      "authors": "Jiawen Wei and Hugues Turb\u00e9 and Gianmarco Mengaldo",
+      "authors": "Jiawen Wei, Hugues Turb\u00e9, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2407.19683",
       "year": 2024,
       "cited_by": 19,
@@ -156,7 +427,7 @@
     },
     {
       "title": "XAI4Extremes: An interpretable machine learning framework for understanding extreme-weather precursors under climate change",
-      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Karniadakis and Gianmarco Mengaldo",
+      "authors": "Jiawen Wei, Aniruddha Bora, Vivek Oommen, Chenyu Dong, Juntao Yang, Jeff Adie, Chen Chen, Simon See, George Karniadakis, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2503.08163",
       "year": 2025,
       "cited_by": 5,
@@ -164,7 +435,7 @@
     },
     {
       "title": "Explainability matters: The effect of liability rules on the healthcare sector",
-      "authors": "Jiawen Wei and Elena Verona and Andrea Bertolini and Gianmarco Mengaldo",
+      "authors": "Jiawen Wei, Elena Verona, Andrea Bertolini, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2509.17334",
       "year": 2025,
       "cited_by": 1,
@@ -172,7 +443,7 @@
     },
     {
       "title": "eXIAA: eXplainable Injections for Adversarial Attack",
-      "authors": "Leonardo Pesce and Jiawen Wei and Gianmarco Mengaldo",
+      "authors": "Leonardo Pesce, Jiawen Wei, Gianmarco Mengaldo",
       "venue": "arXiv preprint arXiv:2511.10088",
       "year": 2025,
       "cited_by": 0,
@@ -180,26 +451,21 @@
     },
     {
       "title": "Data-driven classification of structural nonlinearities using interpretable deep learning on time series",
-      "authors": "Bayan Abusalameh and Gianmarco Mengaldo and Jiawen Wei",
+      "authors": "Bayan Abusalameh, Gianmarco Mengaldo, Jiawen Wei",
       "venue": "Available at SSRN 5717653",
       "cited_by": 0,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
     },
     {
-      "title": "XAI4Extremes: An explainable AI framework for understanding extreme-weather precursors",
-      "authors": "Jiawen Wei and Aniruddha Bora and Vivek Oommen and Chenyu Dong and Juntao Yang and Jeff Adie and Chen Chen and Simon See and George Em Karniadakis and Gianmarco Mengaldo",
-      "cited_by": 0,
-      "url": "https://openreview.net/pdf?id=QsNZDBKwf7"
-    },
-    {
       "title": "XAI4Science: From Understanding Model Behavior to Discovering New Scientific Knowledge",
-      "authors": "Gianmarco Mengaldo and Jiawen Wei and Christopher J Anders and Mohammad Emtiyaz Khan and Abeba Birhane and Sara Hooker",
+      "authors": "Gianmarco Mengaldo, Jiawen Wei, Christopher J Anders, Mohammad Emtiyaz Khan, Abeba Birhane, Sara Hooker",
+      "venue": "ICLR 2024 Workshops",
       "cited_by": 0,
       "url": "https://openreview.net/forum?id=PwoXoEM6e3"
     },
     {
       "title": "CondensNet: enabling stable long-term climate simulations via hybrid deep learning models with adaptive physical constraints",
-      "authors": "Xin Wang and Jianda Chen and Juntao Yang and Jeff Adie and Simon See and Kalli Furtado and Chen Chen and Troy Arcomano and Romit Maulik and Wei Xue and Gianmarco Mengaldo",
+      "authors": "Xin Wang, Jianda Chen, Juntao Yang, Jeff Adie, Simon See, Kalli Furtado, Chen Chen, Troy Arcomano, Romit Maulik, Wei Xue, Gianmarco Mengaldo",
       "venue": "npj Climate and Atmospheric Science",
       "year": 2026,
       "cited_by": 4,
@@ -207,7 +473,7 @@
     },
     {
       "title": "Data-driven classification of structural nonlinearities using interpretable deep learning on time series",
-      "authors": "Bayan Abusalameh and Gianmarco Mengaldo and Jiawen Wei",
+      "authors": "Bayan Abusalameh, Gianmarco Mengaldo, Jiawen Wei",
       "venue": "Available at SSRN 5717653",
       "cited_by": 0,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
