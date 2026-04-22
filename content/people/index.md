@@ -132,6 +132,15 @@ sections:
     #   image: "/images/people/vishal.png"
     #   bio: ""
 
+    - name: "Yuchen SUN"
+      role: "PhD Student"
+      image: "/images/people/New/yuchen.png"
+      links:
+        email: "sun.yuchen22@u.nus.edu"
+        linkedin: "https://www.linkedin.com/in/yuchen-sun-78b144384/"
+        researchgate: "https://www.researchgate.net/scientific-contributions/Yuchen-Sun-2299240268"
+      bio: "Yuchen Sun is co-supervised with Prof Cecilia Laschi, and works on computational mechanics, reduced-order modelling, and latent state learning for soft robotics, contributing to the REBOT and DESTRO projects on multi-scale, multi-physics biomechanics models of soft manipulators and octopus-inspired arms. First author of a related study currently under revision at Nature Communications. She presented at WCCM/PANACM 2024, and organized a workshop at IROS 2025 on the topic of bridging biology and soft robotics. She was a visiting researcher at Politecnico di Milano in September 2023."
+
     - name: "Yuxuan YANG"
       role: "PhD Student"
       image: "/images/people/New/Yuxan.png"
