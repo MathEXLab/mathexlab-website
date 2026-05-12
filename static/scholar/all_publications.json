@@ -60,13 +60,12 @@
     },
     {
       "title": "Tell me why: Visual foundation models as self-explainable classifiers",
-      "authors": "Hugues Turbé, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
+      "authors": "Hugues Turb\u00e9, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
       "venue": "arXiv preprint arXiv:2502.19577",
       "year": 2025,
       "cited_by": 3,
       "url": "https://arxiv.org/abs/2502.19577"
     },
-
     {
       "title": "The Curious Case Of A NACA 0012 Airfoil: Are We Learning Something New?",
       "authors": "Rasha Al Jahdali, Lisandro Dalcin, Gianmarco Mengaldo, Matteo Parsani",
@@ -124,7 +123,7 @@
     },
     {
       "title": "Non-intrusive reduced order models for the accurate prediction of bifurcating phenomena in compressible fluid dynamics",
-      "authors": "Niccolò Tonicello, Andrea Lario, Gianluigi Rozza, Gianmarco Mengaldo",
+      "authors": "Niccol\u00f2 Tonicello, Andrea Lario, Gianluigi Rozza, Gianmarco Mengaldo",
       "venue": "Computers & Fluids",
       "year": 2024,
       "cited_by": 11,
@@ -140,7 +139,7 @@
     },
     {
       "title": "ProtoS-ViT: Visual foundation models for sparse self-explainable classifications",
-      "authors": "Hugues Turbé, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
+      "authors": "Hugues Turb\u00e9, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
       "venue": "arXiv preprint arXiv:2406.10025",
       "year": 2024,
       "cited_by": 13,
@@ -156,7 +155,7 @@
     },
     {
       "title": "Fully-discrete spatial eigenanalysis of discontinuous spectral element methods: Insights into well-resolved and under-resolved vortical flows",
-      "authors": "Niccolò Tonicello, Rodrigo C Moura, Guido Lodato, Gianmarco Mengaldo",
+      "authors": "Niccol\u00f2 Tonicello, Rodrigo C Moura, Guido Lodato, Gianmarco Mengaldo",
       "venue": "Computers & Fluids",
       "year": 2023,
       "cited_by": 9,
@@ -172,7 +171,7 @@
     },
     {
       "title": "Evaluation of post-hoc interpretability methods in time-series classification",
-      "authors": "Hugues Turbé, Mina Bjelogrlic, Christian Lovis, Gianmarco Mengaldo",
+      "authors": "Hugues Turb\u00e9, Mina Bjelogrlic, Christian Lovis, Gianmarco Mengaldo",
       "venue": "Nature Machine Intelligence",
       "year": 2023,
       "cited_by": 170,
@@ -212,7 +211,7 @@
     },
     {
       "title": "A concise guide to modelling the physics of embodied intelligence in soft robotics",
-      "authors": "Gianmarco Mengaldo, Federico Renda, Steven L Brunton, Moritz Bächer, Marcello Calisti, Christian Duriez, Gregory S Chirikjian, Cecilia Laschi",
+      "authors": "Gianmarco Mengaldo, Federico Renda, Steven L Brunton, Moritz B\u00e4cher, Marcello Calisti, Christian Duriez, Gregory S Chirikjian, Cecilia Laschi",
       "venue": "Nature Reviews Physics",
       "year": 2022,
       "cited_by": 187,
@@ -236,7 +235,7 @@
     },
     {
       "title": "Industry-Relevant Implicit Large-Eddy Simulation of a High-Performance Road Car via Spectral/hp Element Methods",
-      "authors": "Gianmarco Mengaldo, David Moxey, Michael Turner, Rodrigo Costa Moura, Ayad Jassim, Mark Taylor, Joaquim Peiró, Spencer J Sherwin",
+      "authors": "Gianmarco Mengaldo, David Moxey, Michael Turner, Rodrigo Costa Moura, Ayad Jassim, Mark Taylor, Joaquim Peir\u00f3, Spencer J Sherwin",
       "venue": "SIAM Review",
       "year": 2021,
       "cited_by": 52,
@@ -250,7 +249,6 @@
       "cited_by": 44,
       "url": "https://joss.theoj.org/papers/10.21105/joss.02862.pdf"
     },
-
     {
       "title": "Viscous diffusion effects in the eigenanalysis of (hybridisable) DG methods",
       "authors": "Rodrigo C Moura, Pablo Fernandez, Gianmarco Mengaldo, Spencer J Sherwin",
@@ -269,13 +267,12 @@
     },
     {
       "title": "Nektar++: Enhancing the capability and application of high-fidelity spectral/hp element methods",
-      "authors": "David Moxey, Chris D Cantwell, Yan Bao, Andrea Cassinelli, Giacomo Castiglioni, Sehun Chun, Emilia Juda, Ehsan Kazemi, Kilian Lackhove, Julian Marcon, Gianmarco Mengaldo, Douglas Serson, Michael Turner, Hui Xu, Joaquim Peiró, Robert M Kirby, Spencer J Sherwin",
+      "authors": "David Moxey, Chris D Cantwell, Yan Bao, Andrea Cassinelli, Giacomo Castiglioni, Sehun Chun, Emilia Juda, Ehsan Kazemi, Kilian Lackhove, Julian Marcon, Gianmarco Mengaldo, Douglas Serson, Michael Turner, Hui Xu, Joaquim Peir\u00f3, Robert M Kirby, Spencer J Sherwin",
       "venue": "Computer Physics Communications",
       "year": 2020,
       "cited_by": 180,
       "url": "https://www.sciencedirect.com/science/article/pii/S0010465519304175"
     },
-
     {
       "title": "Hierarchy of extreme-event predictability in turbulence revealed by machine learning",
       "authors": "Yuxuan Yang, Chenyu Dong, Gianmarco Mengaldo",
@@ -477,6 +474,21 @@
       "venue": "Available at SSRN 5717653",
       "cited_by": 0,
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717653"
+    },
+    {
+      "title": "Explainable natural language processing for corporate sustainability analysis",
+      "authors": "Keane Ong, Rui Mao, Ranjan Satapathy, Ricardo Shirota Filho, Erik Cambria, Johan Sulaeman, Gianmarco Mengaldo",
+      "venue": "Information Fusion",
+      "year": 2025,
+      "cited_by": 42,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1566253524005049"
+    },
+    {
+      "title": "Towards robust ESG analysis against greenwashing risks: Aspect-action analysis with cross-category generalization",
+      "authors": "Keane Ong, Rui Mao, Deeksha Varshney, Erik Cambria, Gianmarco Mengaldo",
+      "year": 2025,
+      "cited_by": 19,
+      "url": "https://aclanthology.org/2025.acl-long.723/"
     }
   ]
 }

@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-05-12
+* Added DEVELOPER_GUIDE.md
+* Mobile menu fixed
+* Additional publications added, including WAeydbgAAAAJ
+* YuChen added to people
+
 ## 2026-03-06
 Following <google-scholar-id> [<start-year>] scraped
 * fMPgRDMAAAAJ
@@ -10,7 +16,5 @@ Following <google-scholar-id> [<start-year>] scraped
 * ieZMTi4AAAAJ
 * ouCa_BQAAAAJ
 * 9Z5tCDIAAAAJ
-
-## To Do
-* gT1fmvEAAAAJ with black list/ just delete?
-* 
+* gT1fmvEAAAAJ
+* WAeydbgAAAAJ 2020
