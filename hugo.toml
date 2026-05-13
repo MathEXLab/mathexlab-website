@@ -1,6 +1,6 @@
 baseURL = "https://www.mathexlab.com/"
 languageCode = 'en-us'
-title = 'MathExLab'
+title = 'MathEXLab'
 theme = 'ananke'
 
 [markup.goldmark.renderer]

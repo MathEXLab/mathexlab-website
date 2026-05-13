@@ -1,7 +1,7 @@
 ---
 title: "Research Highlights"
 layout: "research"
-description: "Selected research projects at MathEXLab."
+description: "Selected research projects at MathEXLab"
 menu:
   main:
     weight: 2

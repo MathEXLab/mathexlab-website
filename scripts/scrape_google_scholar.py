@@ -7,6 +7,7 @@ import time
 import random
 from datetime import date
 
+
 def enable_proxies():
     pg = ProxyGenerator()
     ok = pg.FreeProxies()
@@ -29,8 +30,12 @@ def pub_to_record(pub):
 def scrape(user_id, start_year = None,limit=50, delay=2.0, jitter=1.5):
     enable_proxies()
 
-    author = scholarly.search_author_id(user_id)
-    author = scholarly.fill(author, sections=["basics", "publications"])
+    try:
+        author = scholarly.search_author_id(user_id)
+        author = scholarly.fill(author, sections=["basics", "publications"])
+    except Exception as e:
+        print(f"[error] Failed to find author {user_id}. ({type(e).__name__}: {e})")
+        return None
 
     pubs_out = []
     pubs = author.get("publications", [])[:limit]
@@ -71,6 +76,11 @@ def main():
     start_year = int(sys.argv[2]) if len(sys.argv) >= 3 else None
 
     data = scrape(user_id, start_year)
+    if data is None:
+        raise RuntimeError("Scraping failed; no data to save.")
+
+
+
 
     out_path = "static/scholar/all_publications.json"
     
@@ -82,18 +92,17 @@ def main():
     count = 0
     for pub in data["publications"]:
         if pub.get("title") not in existing_titles:
+            # replace ands with , 
+            pub['authors'] = pub['authors'].replace(" and ", ", ")
+            
             existing_data["publications"].append(pub)
+            # Stop duplicates from same scrape
+            existing_titles.add(pub.get("title"))
             count += 1
 
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(existing_data, f, indent=2)
-
-    # os.makedirs("static/scholar", exist_ok=True)
-    # out_path = f"static/scholar/{user_id}.json"
-
-    # with open(out_path, "w", encoding="utf-8") as f:
-    #     json.dump(data, f, ensure_ascii=False, indent=2)
 
     print(f"Saved {count} new publications → {out_path}")
 

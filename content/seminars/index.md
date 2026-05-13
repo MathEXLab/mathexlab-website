@@ -1,6 +1,6 @@
 ---
 title: "Seminars"
-description: "MathExLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community."
+description: "MathEXLab organised seminars"
 featured_image: "/images/seminars/1.png"
 featured_image_2: "/images/seminars/2.png"
 featured_image_3: "/images/seminars/3.png"
@@ -14,13 +14,13 @@ sections:
   - id: "about"
     title: "About"
     intro:
-      - "MathExLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community. These talks span the core themes of the group and create space for discussion across applied mathematics, physics, machine learning, and scientific computing."
-      - "In addition to invited talks, we also run an internal seminar series where members of the lab present their ongoing research in the form of 30-minute talks. These sessions are intended to encourage feedback, discussion, and exchange across projects within MathExLab."
+      - "MathEXLab regularly organizes seminars that bring external speakers to share their latest research with the lab and the broader community. These talks span the core themes of the group and create space for discussion across applied mathematics, physics, machine learning, and scientific computing."
+      - "In addition to invited talks, we also run an internal seminar series where members of the lab present their ongoing research in the form of 30-minute talks. These sessions are intended to encourage feedback, discussion, and exchange across projects within MathEXLab."
 
   - id: "internal-seminars"
     title: "Internal Seminar Series"
     intro:
-      - "Details of the internal MathExLab seminar series will be added here. These seminars feature 30-minute research talks by lab members on ongoing work, recent results, and new ideas in progress."
+      - "Details of the internal MathEXLab seminar series will be added here. These seminars feature 30-minute research talks by lab members on ongoing work, recent results, and new ideas in progress."
     projects:
       - id: "bayan-abusalameh-2026-02-24"
         title: "Interpretable AI for Nonlinear Structural Dynamics and a Benchmark for Nonlinear Mode Interaction"
@@ -30,7 +30,7 @@ sections:
           - heading: "Seminar Details"
             content:
               - "**Speaker:** Bayan Abusalameh"
-              - "**Role:** PhD Student, MathExLab"
+              - "**Role:** PhD Student, MathEXLab"
               - "**Date:** 24 February 2026"
               - "**Time:** 2:00 pm (SGT)"
           - heading: "Abstract"

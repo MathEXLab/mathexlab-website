@@ -8,7 +8,7 @@
       {{ with .intro }}
         <div class="section-intro">
           {{ range . }}
-            <p class="section-intro">{{ . | markdownify }}</p>
+            <div class="section-intro__item">{{ . | markdownify }}</div>
           {{ end }}
         </div>
       {{ end }}
