@@ -1,9 +1,9 @@
 ---
 title: "Seminars"
 description: "MathEXLab organised seminars"
-featured_image: "/images/seminars/1.png"
-featured_image_2: "/images/seminars/2.png"
-featured_image_3: "/images/seminars/3.png"
+featured_image: "/images/seminars/1.jpg"
+featured_image_2: "/images/seminars/2.jpg"
+featured_image_3: "/images/seminars/3.jpg"
 
 layout: "seminars"
 menu:
