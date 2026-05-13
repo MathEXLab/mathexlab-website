@@ -134,7 +134,7 @@ sections:
 
     - name: "Yuchen SUN"
       role: "PhD Student"
-      image: "/images/people/New/yuchen.png"
+      image: "/images/people/New/Yuchen.png"
       links:
         email: "sun.yuchen22@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/yuchen-sun-78b144384/"
@@ -143,7 +143,7 @@ sections:
 
     - name: "Yuxuan YANG"
       role: "PhD Student"
-      image: "/images/people/New/Yuxan.png"
+      image: "/images/people/New/Yuxuan.png"
       links:
         email: "y.yang.65@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/yuxuan-yang-77108024b/"
