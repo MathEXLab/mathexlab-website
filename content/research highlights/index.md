@@ -47,11 +47,11 @@ sections:
           - name: "PI"
             image: "/images/people/gianmarco.png"
           - name: "Zhou"
-            image: "/images/people/New/Zhou.png"
+            image: "/images/people/compressed/Zhou.jpg"
           - name: "Chenyu"
-            image: "/images/people/New/Chenyu.png"
+            image: "/images/people/compressed/Chenyu.jpg"
           - name: "Xin"
-            image: "/images/people/New/Tsin.png"
+            image: "/images/people/compressed/Tsin.jpg"
         
         publications:
           - "A. Gualandi, D. Faranda, C. Marone, M. Cocco, G. Mengaldo, *Deterministic and stochastic chaos characterize laboratory earthquakes*, *Earth and Planetary Science Letters* (2023)."
@@ -81,11 +81,11 @@ sections:
           - name: "PI"
             image: "/images/people/gianmarco.png"
           - name: "Jiawen"
-            image: "/images/people/New/Jiawen.png"
+            image: "/images/people/compressed/Jiawen.jpg"
           - name: "Bayan"
-            image: "/images/people/New/Bayan.png"
+            image: "/images/people/compressed/Bayan.jpg"
           - name: "Keane"
-            image: "/images/people/New/Keane.png"
+            image: "/images/people/compressed/Keane.jpg"
         publications:
           - "H. Turbé, M. Bjelogrlic, C. Lovis, G. Mengaldo, *Evaluation of post-hoc interpretability methods in time-series classification*, *Nature Machine Intelligence* (2023)."
 
