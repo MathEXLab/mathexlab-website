@@ -1,28 +1,21 @@
 {{ define "main" }}
-
 <main class="page-shell">
 
-<!-- MINI HIGHLIGHTS -->
-{{ partial "mini-highlights.html" . }}
+  {{ range .Params.sections }}
+    <section id="{{ .id }}" class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">{{ .title }}</h2>
+      </div>
 
-<!-- FULL POSITION CARDS -->
-
-{{ range .Params.sections }}
-
-<section id="{{ .id }}" class="content-section">
-
-  <h2 class="section-title">{{ .title }}</h2>
-
-  {{ range .projects }}
-
-    {{ partial "project-card.html" . }}
-
+      {{ with .people }}
+        {{ if gt (len .) 0 }}
+          {{ partial "contact-card.html" . }}
+        {{ else }}
+          <p class="section-intro">Details will be added here.</p>
+        {{ end }}
+      {{ end }}
+    </section>
   {{ end }}
 
-</section>
-
-{{ end }}
-
 </main>
-
 {{ end }}

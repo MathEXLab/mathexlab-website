@@ -1,0 +1,74 @@
+<div class="contact-card-grid">
+  {{ range . }}
+    {{ $item := . }}
+
+    {{ $href := or $item.page $item.link }}
+    <article class="{{ if $href }}contact-card contact-card--linked{{ else }}contact-card{{ end }}">
+      {{ if $href }}<a class="contact-card__stretched-link" href="{{ $href }}" aria-label="{{ $item.title }}{{ $item.name }}"></a>{{ end }}
+
+      {{ with $item.title }}
+        <h3 class="contact-card__title">{{ . }}</h3>
+      {{ end }}
+
+      {{ with $item.status }}
+        <span class="contact-card__status">{{ . }}</span>
+      {{ end }}
+
+      <div class="contact-card__inner">
+        <div class="contact-card__left">
+          {{ with $item.image }}
+            <img src="{{ . }}" alt="{{ $item.name }}" class="contact-card__image">
+          {{ end }}
+          {{ with $item.name }}<p class="contact-card__name">{{ . }}</p>{{ end }}
+          {{ with $item.role }}
+            <p class="contact-card__role">{{ . }}</p>
+          {{ end }}
+          {{ with $item.links }}
+            <div class="people-links">
+              {{ with .email }}
+              <a href="mailto:{{ . }}" class="people-link" title="Email">
+                <img src="/images/icons/email.png" alt="Email">
+              </a>
+              {{ end }}
+              {{ with .linkedin }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="LinkedIn">
+                <img src="/images/icons/linkedin.png" alt="LinkedIn">
+              </a>
+              {{ end }}
+              {{ with .scholar }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="Google Scholar">
+                <img src="/images/icons/scholar.png" alt="Google Scholar">
+              </a>
+              {{ end }}
+              {{ with .researchgate }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="Research Gate">
+                <img src="/images/icons/researchgate.png" alt="Research Gate">
+              </a>
+              {{ end }}
+              {{ with .github }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="people-link" title="GitHub">
+                <img src="/images/icons/github.png" alt="GitHub">
+              </a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+        <div class="contact-card__right">
+          {{ with $item.bio }}
+            <div class="contact-card__bio">
+              {{ if reflect.IsSlice . }}
+                {{ range . }}<p>{{ . | markdownify }}</p>{{ end }}
+              {{ else }}
+                <p>{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          {{ end }}
+          {{ with $item.page }}
+            <a href="{{ . }}" class="contact-card__page-link">Learn more →</a>
+          {{ end }}
+        </div>
+      </div>
+
+    </article>
+  {{ end }}
+</div>

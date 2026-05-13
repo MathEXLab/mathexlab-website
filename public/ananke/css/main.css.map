@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/Library_for_Bayan/ADMIN/For socials /Mathex_Lab_website/mathexlab-website",
+	"sourceRoot": "/Users/emmal/Documents/Git/mathexlab-website",
 	"sources": [
 		"ananke/css/main.css"
 	],

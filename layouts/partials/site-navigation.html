@@ -11,7 +11,8 @@
 
       <ul class="site-nav__links">
         {{ range site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ $isActive := or (eq $.Page.RelPermalink .URL) (and (ne .URL "/") (strings.HasPrefix $.Page.RelPermalink .URL)) }}
+          <li><a href="{{ .URL }}"{{ if $isActive }} class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
       </ul>
     </div>
@@ -37,7 +38,8 @@
         <div class="site-nav__drawer-panel">
           <ul class="site-nav__drawer-links">
             {{ range site.Menus.main }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ $isActive := or (eq $.Page.RelPermalink .URL) (and (ne .URL "/") (strings.HasPrefix $.Page.RelPermalink .URL)) }}
+              <li><a href="{{ .URL }}"{{ if $isActive }} class="active"{{ end }}>{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>

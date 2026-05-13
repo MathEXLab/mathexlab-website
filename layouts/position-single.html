@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<main class="page-shell">
+  <section class="content-section">
+    {{ $project := dict
+      "id"            .Params.id
+      "title"         .Title
+      "status"        .Params.status
+      "summary"       .Params.summary
+      "description"   .Params.details
+      "link"          .Params.link
+      "poster"        .Params.poster
+      "video"         .Params.video
+      "publications"  .Params.publications
+      "sponsors"      .Params.sponsors
+      "collaborators" .Params.collaborators
+      "people"        .Params.people
+      "menu"          .Params.menu  
+    }}
+    {{ partial "project-card.html" $project }}
+  </section>
+</main>
+
+{{ end }}
