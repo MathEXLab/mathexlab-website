@@ -15,15 +15,103 @@
       {{ end }}
 
       {{ with .projects }}
-        <div class="projects-list">
+        <div class="seminar-grid">
           {{ range . }}
-            {{ partial "project-card.html" . }}
+            <button class="seminar-card" onclick="openSeminarModal('{{ .id }}')" aria-label="View details for {{ .title }}">
+              <div class="seminar-card__img-wrap">
+                {{ if .speaker_image }}
+                  <img src="{{ .speaker_image }}" alt="{{ .speaker }}" loading="lazy">
+                {{ else }}
+                  <div class="seminar-card__img-placeholder"></div>
+                {{ end }}
+              </div>
+              <div class="seminar-card__body">
+                <p class="seminar-card__title">{{ .title }}</p>
+                {{ with .speaker }}
+                  <p class="seminar-card__speaker">{{ index (last 1 (split . " ")) 0 }}</p>
+                {{ end }}
+                {{ with .date }}<p class="seminar-card__date">{{ . }}</p>{{ end }}
+              </div>
+            </button>
           {{ end }}
         </div>
+
+        {{/* Hidden detail panels — cloned into the modal on click */}}
+        {{ range . }}
+          <div id="detail-{{ .id }}" class="seminar-detail-panel" hidden>
+            <div class="seminar-detail-panel__inner">
+              {{ with .poster }}
+                <div class="seminar-detail-panel__poster">
+                  <img src="{{ . }}" alt="">
+                </div>
+              {{ end }}
+              <div class="seminar-detail-panel__content">
+                <h2 class="seminar-detail-panel__title">{{ .title }}</h2>
+                {{ with .summary }}
+                  <p class="seminar-detail-panel__summary">{{ . }}</p>
+                {{ end }}
+                {{ with .description }}
+                  <div class="seminar-detail-panel__description">
+                    {{ range . }}
+                      <div class="seminar-detail-panel__block">
+                        <h4 class="seminar-detail-panel__heading">{{ .heading }}</h4>
+                        {{ if reflect.IsSlice .content }}
+                          <ul class="seminar-detail-panel__list">
+                            {{ range .content }}
+                              <li>{{ . | markdownify }}</li>
+                            {{ end }}
+                          </ul>
+                        {{ else }}
+                          <p class="seminar-detail-panel__text">{{ .content | markdownify }}</p>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
       {{ end }}
+
     </section>
   {{ end }}
 
 </main>
+
+{{/* Modal overlay */}}
+<div id="seminar-modal-overlay" class="seminar-modal-overlay" hidden role="dialog" aria-modal="true">
+  <div class="seminar-modal-box">
+    <button class="seminar-modal-close" onclick="closeSeminarModal()" aria-label="Close">✕</button>
+    <div id="seminar-modal-content" class="seminar-modal-content"></div>
+  </div>
+</div>
+
+<script>
+  function openSeminarModal(id) {
+    var panel = document.getElementById('detail-' + id);
+    if (!panel) return;
+    var inner = panel.querySelector('.seminar-detail-panel__inner');
+    if (!inner) return;
+    document.getElementById('seminar-modal-content').innerHTML = inner.innerHTML;
+    var overlay = document.getElementById('seminar-modal-overlay');
+    overlay.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeSeminarModal() {
+    document.getElementById('seminar-modal-overlay').setAttribute('hidden', '');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('seminar-modal-overlay').addEventListener('click', function (e) {
+      if (e.target === this) closeSeminarModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeSeminarModal();
+    });
+  });
+</script>
 
 {{ end }}

@@ -7,6 +7,7 @@ main_sections:
   - publications
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
+featured_image_mobile: '/main.001/mobile.001.png'
 cascade:
   featured_image: '/main.001/main_colored_bw.001.png'
 

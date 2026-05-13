@@ -61,7 +61,8 @@
       </div>
     </div>
 
-    <div class="page-header-mobile {{ .Site.Params.background_color_class | compare.Default "bg-black" }}">
+    {{ $mobile_image := .Params.featured_image_mobile }}
+    <div class="page-header-mobile {{ .Site.Params.background_color_class | compare.Default "bg-black" }}"{{ with $mobile_image }} style="background-image: url('{{ . }}'); background-size: cover; background-position: center;"{{ end }}>
       {{ partials.Include "site-navigation.html" . }}
       <div class="page-shell pv3">
         <h1 class="f3 fw7 white-90 mb2 lh-title">
