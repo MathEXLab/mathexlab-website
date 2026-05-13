@@ -63,6 +63,9 @@
               {{ end }}
             </div>
           {{ end }}
+          {{ with $item.page }}
+            <a href="{{ . }}" class="contact-card__page-link">Learn more →</a>
+          {{ end }}
         </div>
       </div>
 

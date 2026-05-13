@@ -1458,6 +1458,21 @@ html {
   color: #333;
 }
 
+.contact-card__page-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2a6ebb;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-card__page-link:hover {
+  text-decoration: underline;
+}
+
 .contact-card__status {
   display: inline-block;
   background: #ead98b;
