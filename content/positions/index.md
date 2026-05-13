@@ -17,6 +17,7 @@ sections:
         title: "Research Felows (Postdoctoral Scholars)"
         status: "Open"
         featured: true
+        page: "/positions/research-fellows/"
 
         summary: "We are recruiting full-time Research Felows to develop hybrid physics-AI for weather applications."
         
@@ -65,7 +66,7 @@ sections:
         title: "PhD Students"
         status: "Open"
         featured: true
-
+        page: "/positions/phd-students/"
         summary: "We are recruiting full-time PhD students to join our group at National University of Singapore."
 
         description :

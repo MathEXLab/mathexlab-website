@@ -6,7 +6,7 @@
       {{ range .projects }}
         {{ if .featured }}
 
-        <a href="#{{ .id }}" class="highlight-mini-card">
+        <a href="{{ if .page }}{{ .page }}{{ else }}#{{ .id }}{{ end }}" class="highlight-mini-card">
 
           {{ $project := . }}
           {{ with $project.poster }}
