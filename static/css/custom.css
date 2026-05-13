@@ -277,7 +277,8 @@
 .person-item {
   min-width: 0;
   width: 100%;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .logo-item img {
@@ -820,7 +821,8 @@ html {
 }
 
 .people-page-bio {
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .people-page-bio p {
