@@ -9,7 +9,7 @@ unsafe = true
 [params]
 text_color = ""
 author = ""
-favicon = ""
+favicon = "favicon.png"
 site_logo = "logo_white.001.png"
 description = "Mathematical and Computational Lab for Complex Systems"
 custom_css = ["css/custom.css"]
