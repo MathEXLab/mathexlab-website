@@ -28,24 +28,26 @@ sections:
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7434806996769566720?collapsed=1"
-link="https://www.linkedin.com/posts/nus-cde_cde-nus-forgingnewfrontiers-activity-7434807000095477761-OBgh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7478395721717665792?collapsed=1"
+link="https://www.linkedin.com/posts/kowy_icml2026-affectivecomputing-socialintelligence-activity-7478395725215657984-o0xT?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
 
+
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7427901039124692992?collapsed=1"
-link="https://www.linkedin.com/posts/kowy_announcing-our-new-preprint-omnisapiens-activity-7427901042140463104-ShQU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7470744641487667200?collapsed=1"
+link="https://www.linkedin.com/posts/gianmarco-m_job-description-ugcPost-7470744641487667200-3uM_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
 
+
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7432312829577437184?collapsed=1"
-link="https://www.linkedin.com/posts/gianmarco-m_job-description-ugcPost-7432312829577437184-J9-L?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7444281333398372352?collapsed=1"
+link="https://www.linkedin.com/posts/nus-cde_cde-nus-forgingnewfrontiers-activity-7444281335176667137-FxpP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
