@@ -19,7 +19,7 @@ sections:
         status: "Open"
         page: "/positions/research-fellows/"
 
-        role: "We are recruiting full-time Research Felows to develop hybrid physics-AI for weather applications."
+        role: "We are recruiting full-time Research Felows to develop hybrid physics-AI for weather and maritime applications."
         
         bio:
           - "**Location:** Singapore"
