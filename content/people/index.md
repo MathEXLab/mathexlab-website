@@ -162,6 +162,19 @@ sections:
         github: "https://github.com/ZhousLab"
       bio: "Zhou FANG is a Ph.D. candidate at the National University of Singapore (NUS), supervised by Prof. Gianmarco Mengaldo. Her research lies at the intersection of dynamical systems theory and machine learning, with a focus on scientific machine learning for modeling and forecasting complex dynamical systems. She studies how dynamical systems principles can be used to evaluate, interpret, and improve machine learning models, especially for predictive modeling in scientific domains, with climate science as a primary application area within AI for Science."
 
+  - id: "Master Students"
+    title: "Master Students"
+    people:
+    - name: "Théo VIDAL"
+      role: "Master Student"
+      image: "/images/people/compressed/Theo.jpg"
+      links:
+        email: "theovidal@u.nus.edu"
+        linkedin: "https://linkedin.com/in/theovidal"
+        researchgate: "https://www.researchgate.net/profile/Theo-Vidal"
+        github: "https://github.com/theovidal"
+      bio: "Théo VIDAL is a Master by Research (M.Eng) student in the Department of Mechanical Engineering at the National University of Singapore, supervised by Prof. Gianmarco Mengaldo. He obtained his engineering degree from ENSTA Paris, with a strong background in fluid mechanics, turbulence, computational fluid dynamics, and deep learning. His research focuses on physically consistent, graph neural network-based modeling of tropical cyclones, combining short-horizon intensity prediction with explicit physical constraints and interpretability analysis to bridge data-driven learning and geophysical fluid dynamics."
+
   - id: "collaborators"
     title: "Collaborators and Alumni"
     people:
