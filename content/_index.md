@@ -28,8 +28,8 @@ sections:
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7478395721717665792?collapsed=1"
-link="https://www.linkedin.com/posts/kowy_icml2026-affectivecomputing-socialintelligence-activity-7478395725215657984-o0xT?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7492906604514668544?collapsed=1"
+link="https://www.linkedin.com/posts/leonardopesce00_neurips2026-xai-machinelearning-activity-7492906605928296448-Mf_s?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
@@ -37,8 +37,8 @@ height="420"
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7470744641487667200?collapsed=1"
-link="https://www.linkedin.com/posts/gianmarco-m_job-description-ugcPost-7470744641487667200-3uM_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7492893653531586563?collapsed=1"
+link="https://www.linkedin.com/posts/gianmarco-m_nature-communications-xai-activity-7492893655716798464-vfTG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
@@ -46,8 +46,8 @@ height="420"
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7444281333398372352?collapsed=1"
-link="https://www.linkedin.com/posts/nus-cde_cde-nus-forgingnewfrontiers-activity-7444281335176667137-FxpP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7394914933223677952"
+link="https://www.linkedin.com/posts/mathexlab_wccm2026-eccomas2026-scientificmachinelearning-activity-7485017902459330561-060y?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
 height="420"
 >}}
 </div>
