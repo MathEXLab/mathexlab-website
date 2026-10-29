@@ -37,7 +37,7 @@ sections:
         researchgate: "https://www.researchgate.net/profile/Luwei-Xiao"
         github: "https://github.com/louisshaw008"
       bio: "Luwei Xiao, Ph.D. is a Research Fellow at the National University of Singapore. He obtained his Ph.D. from East China Normal University, where his research focused on AI for Climate, Multimodal Learning, Affective Computing, and LLMs. Dr. Xiao has published over ten papers in leading international journals and conferences, including two ESI Highly Cited Papers. He led the Excellent Doctoral Student Academic Innovation Project at ECNU and has contributed to several major research initiatives, including the NSFC Young Scientist Fund, Shanghai Science and Technology Commission projects, and collaborations with Huawei Noah's Ark Lab."
-    - name: "Xin Wang"
+    - name: "Xin WANG"
       role: "Research Fellow"
       image: "/images/people/compressed/Tsin.jpg"
       links:
@@ -47,6 +47,16 @@ sections:
         researchgate: "https://www.researchgate.net/scientific-contributions/Xin-Wang-2306047792"
         github: "https://github.com/xin-w24"
       bio: "Xin Wang is a postdoctoral research fellow at MathEXLab in AI for Weather and Climate, specializing in hybrid ML-climate models that enhance the accuracy and efficiency of climate simulations. His research includes the first stable hybrid ML-GCM simulation under real-world conditions and the physically constrained hybrid ML climate model that first ensures long-term stability and physical consistency without manual tuning. Xin Wang now focuses on hybrid ML-physics modeling, LLMs for climate, and explainable AI for weather and climate."
+    - name: "Ke XU"
+      role: "Research Fellow"
+      image: "/images/people/compressed/Kexu.jpg"
+      links:
+        email: "xu-ke@nus.edu.sg"
+        linkedin: "https://www.linkedin.com/in/%E7%8F%82-%E8%AE%B8-8a9076319"
+        # scholar: "https://scholar.google.com/citations?hl=en&user=e1T79vsAAAAJ"
+        researchgate: "https://www.researchgate.net/profile/Ke-Xu-163?ev=hdr_xprf"
+        github: "https://github.com/descartesr1cosa"
+      bio: "Ke Xu is a Research Fellow in the Department of Mechanical Engineering at the National University of Singapore (NUS). He received his Ph.D. in Fluid Mechanics from Beihang University in 2025. His research focuses on computational fluid dynamics, magnetohydrodynamics, and numerical methods for partial differential equations, with applications in planetary science. His work involves the development of accurate and robust numerical methods for conservation laws and high-fidelity simulations of complex multiphysics systems. His current research interests lie at the intersection of computational physics and scientific machine learning, particularly in integrating physics-based numerical simulations with data-driven approaches to model complex physical systems."
 
   - id : "phd-students"
     title: "PhD Students"
