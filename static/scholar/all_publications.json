@@ -4,6 +4,38 @@
   "updated": "2026-03-06",
   "publications": [
     {
+      "title": "ATEMPO: Amortized Transfer Entropy Model Per-lag Over-Time",
+      "authors": "Emma Andrews, Konstantinos Kontras, Keane Ong, Maarten De Vos, Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2610.36536",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2610.36536"
+    },
+    {
+      "title": "S2S-JEPA: Predicting the Predictable at Subseasonal-to-Seasonal Timescales",
+      "authors": "Chenyu Dong, Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2610.03106",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2610.03106"
+    },
+    {
+      "title": "When Does Text Inform? Benchmarking Information-Theoretic Metrics for Multimodal Time-Series Forecasting",
+      "authors": "Emma Andrews, Gianmarco Mengaldo",
+      "venue": "arXiv preprint arXiv:2609.11282",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://arxiv.org/abs/2609.11282"
+    },
+    {
+      "title": "A Practical Guide to Interpretability Metrics for Chain of Thought Reasoning",
+      "authors": "Emma Andrews, Keane Ong, Luwei Xiao, Leonardo Pesce, Jiawen Wei, Gianmarco Mengaldo",
+      "venue": "preprint DOI 10.5281/zenodo.21127002",
+      "year": 2026,
+      "cited_by": 0,
+      "url": "https://doi.org/10.5281/zenodo.21127003"
+    },
+    {
       "title": "Language models for environmental, social, and governance analysis: A review",
       "authors": "Kelvin Du, Rui Mao, Frank Xing, Gianmarco Mengaldo, Erik Cambria",
       "venue": "Information Processing & Management",

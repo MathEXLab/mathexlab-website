@@ -28,8 +28,8 @@ sections:
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7492906604514668544?collapsed=1"
-link="https://www.linkedin.com/posts/leonardopesce00_neurips2026-xai-machinelearning-activity-7492906605928296448-Mf_s?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7513933527076241409?collapsed=1"
+link="https://lnkd.in/p/eYzF8h9X"
 height="420"
 >}}
 </div>
@@ -37,17 +37,16 @@ height="420"
 
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7492893653531586563?collapsed=1"
-link="https://www.linkedin.com/posts/gianmarco-m_nature-communications-xai-activity-7492893655716798464-vfTG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7521221325902790656?collapsed=1"
+link="https://lnkd.in/p/eYMdmPEE"
 height="420"
 >}}
 </div>
 
-
 <div class="project-card">
 {{< social
-url="https://www.linkedin.com/embed/feed/update/urn:li:share:7394914933223677952"
-link="https://www.linkedin.com/posts/mathexlab_wccm2026-eccomas2026-scientificmachinelearning-activity-7485017902459330561-060y?utm_source=share&utm_medium=member_desktop&rcm=ACoAACO7WdUBsnYiWQimzbQ90bSzuiEZGpeQ7IA"
+url="https://www.linkedin.com/embed/feed/update/urn:li:share:7520409103576399872?collapsed=1"
+link="https://lnkd.in/p/eZf3ki3h"
 height="420"
 >}}
 </div>
