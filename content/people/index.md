@@ -27,6 +27,16 @@ sections:
   - id: "research-fellows"
     title: "Research Fellows"
     people:
+    - name: "Ke XU"
+      role: "Research Fellow"
+      image: "/images/people/compressed/Kexu.jpg"
+      links:
+        email: "xu-ke@nus.edu.sg"
+        linkedin: "https://www.linkedin.com/in/%E7%8F%82-%E8%AE%B8-8a9076319"
+        # scholar: "https://scholar.google.com/citations?hl=en&user=e1T79vsAAAAJ"
+        researchgate: "https://www.researchgate.net/profile/Ke-Xu-163?ev=hdr_xprf"
+        github: "https://github.com/descartesr1cosa"
+      bio: "Ke Xu is a Research Fellow in the Department of Mechanical Engineering at the National University of Singapore (NUS). He received his Ph.D. in Fluid Mechanics from Beihang University in 2025. His research focuses on computational fluid dynamics, magnetohydrodynamics, and numerical methods for partial differential equations, with applications in planetary science. His work involves the development of accurate and robust numerical methods for conservation laws and high-fidelity simulations of complex multiphysics systems. His current research interests lie at the intersection of computational physics and scientific machine learning, particularly in integrating physics-based numerical simulations with data-driven approaches to model complex physical systems."
     - name: "Luwei XIAO"
       role: "Research Fellow"
       image: "/images/people/compressed/Louis.jpg"
@@ -47,16 +57,15 @@ sections:
         researchgate: "https://www.researchgate.net/scientific-contributions/Xin-Wang-2306047792"
         github: "https://github.com/xin-w24"
       bio: "Xin Wang is a postdoctoral research fellow at MathEXLab in AI for Weather and Climate, specializing in hybrid ML-climate models that enhance the accuracy and efficiency of climate simulations. His research includes the first stable hybrid ML-GCM simulation under real-world conditions and the physically constrained hybrid ML climate model that first ensures long-term stability and physical consistency without manual tuning. Xin Wang now focuses on hybrid ML-physics modeling, LLMs for climate, and explainable AI for weather and climate."
-    - name: "Ke XU"
+
+    - name: "Yuchen SUN"
       role: "Research Fellow"
-      image: "/images/people/compressed/Kexu.jpg"
+      image: "/images/people/compressed/Yuchen.jpeg"
       links:
-        email: "xu-ke@nus.edu.sg"
-        linkedin: "https://www.linkedin.com/in/%E7%8F%82-%E8%AE%B8-8a9076319"
-        # scholar: "https://scholar.google.com/citations?hl=en&user=e1T79vsAAAAJ"
-        researchgate: "https://www.researchgate.net/profile/Ke-Xu-163?ev=hdr_xprf"
-        github: "https://github.com/descartesr1cosa"
-      bio: "Ke Xu is a Research Fellow in the Department of Mechanical Engineering at the National University of Singapore (NUS). He received his Ph.D. in Fluid Mechanics from Beihang University in 2025. His research focuses on computational fluid dynamics, magnetohydrodynamics, and numerical methods for partial differential equations, with applications in planetary science. His work involves the development of accurate and robust numerical methods for conservation laws and high-fidelity simulations of complex multiphysics systems. His current research interests lie at the intersection of computational physics and scientific machine learning, particularly in integrating physics-based numerical simulations with data-driven approaches to model complex physical systems."
+        email: "sun.yuchen22@u.nus.edu"
+        linkedin: "https://www.linkedin.com/in/yuchen-sun-78b144384/"
+        researchgate: "https://www.researchgate.net/scientific-contributions/Yuchen-Sun-2299240268"
+      bio: "Yuchen Sun a postdoctoral research fellow currently working on a multi-physics marine foundation model. Previously she was a PhD student with MathEXLab, co-supervised with Prof Cecilia Laschi. Her PhD covered computational mechanics, reduced-order modelling, and latent state learning for soft robotics, contributing to the REBOT and DESTRO projects on multi-scale, multi-physics biomechanics models of soft manipulators and octopus-inspired arms. First author of a related study currently under revision at Nature Communications. She presented at WCCM/PANACM 2024, and organized a workshop at IROS 2025 on the topic of bridging biology and soft robotics. She was a visiting researcher at Politecnico di Milano in September 2023."
 
   - id : "phd-students"
     title: "PhD Students"
@@ -141,15 +150,6 @@ sections:
     #   role: "PhD Student"
     #   image: "/images/people/vishal.png"
     #   bio: ""
-
-    - name: "Yuchen SUN"
-      role: "PhD Student"
-      image: "/images/people/compressed/Yuchen.jpeg"
-      links:
-        email: "sun.yuchen22@u.nus.edu"
-        linkedin: "https://www.linkedin.com/in/yuchen-sun-78b144384/"
-        researchgate: "https://www.researchgate.net/scientific-contributions/Yuchen-Sun-2299240268"
-      bio: "Yuchen Sun is co-supervised with Prof Cecilia Laschi, and works on computational mechanics, reduced-order modelling, and latent state learning for soft robotics, contributing to the REBOT and DESTRO projects on multi-scale, multi-physics biomechanics models of soft manipulators and octopus-inspired arms. First author of a related study currently under revision at Nature Communications. She presented at WCCM/PANACM 2024, and organized a workshop at IROS 2025 on the topic of bridging biology and soft robotics. She was a visiting researcher at Politecnico di Milano in September 2023."
 
     - name: "Yuxuan YANG"
       role: "PhD Student"
