@@ -60,7 +60,7 @@ sections:
 
     - name: "Yuchen SUN"
       role: "Research Fellow"
-      image: "/images/people/compressed/Yuchen.jpeg"
+      image: "/images/people/compressed/Yuchen.jpg"
       links:
         email: "sun.yuchen22@u.nus.edu"
         linkedin: "https://www.linkedin.com/in/yuchen-sun-78b144384/"
